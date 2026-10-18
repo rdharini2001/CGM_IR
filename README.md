@@ -8,7 +8,7 @@
 
 Companion software for *Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm*.
 
-[**Manuscript**](https://doi.org/10.36227/techrxiv.24465955.v1) · [**Interactive project page**](docs/index.html) · [**Deterministic weight recipe**](docs/WEIGHT_RECIPE.md) · [**Training methods**](docs/TRAINING.md) · [**Numerical results**](docs/RESULTS.md) · [**References**](docs/REFERENCES.md)
+[**Manuscript**](https://doi.org/10.36227/techrxiv.24465955.v1) · [**Interactive project page**](https://rdharini2001.github.io/CGM_IR/) · [**Deterministic weight recipe**](docs/WEIGHT_RECIPE.md) · [**Training methods**](docs/TRAINING.md) · [**Numerical results**](docs/RESULTS.md) · [**References**](docs/REFERENCES.md)
 
 </div>
 
