@@ -2,11 +2,9 @@
 
 <img src="docs/assets/optic-banner.svg" alt="OPTIC — optical glucose monitoring and PSO–ANN calibration" width="100%" />
 
-# OPTIC · Near-Infrared Glucose Monitoring
+# OPTIC · Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm
 
 **940 nm optical sensing · Particle-swarm neural networks · Computational calibration**
-
-Companion software for *Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm*.
 
 [**Manuscript**](https://doi.org/10.36227/techrxiv.24465955.v1) · [**Interactive project page**](https://rdharini2001.github.io/CGM_IR/) · [**Deterministic weight recipe**](docs/WEIGHT_RECIPE.md) · [**Training methods**](docs/TRAINING.md) · [**Numerical results**](docs/RESULTS.md) · [**References**](docs/REFERENCES.md)
 
