@@ -1,0 +1,13 @@
+{
+  "total": 49,
+  "source_measured": 40,
+  "source_synthetic": 9,
+  "clarke_a": 46,
+  "clarke_b": 3,
+  "percent_zone_a": 93.87755102040816,
+  "percent_zone_a_b": 100.0,
+  "source_data_zone_a": 40,
+  "source_data_zone_a_percent": 100.0,
+  "is_independent_clinical_evidence": false,
+  "conditioned_on_reported_target": true
+}

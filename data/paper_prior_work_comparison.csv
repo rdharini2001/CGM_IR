@@ -1,0 +1,5 @@
+method,rmse,mae,r2,clarke_zones_a_b_percent
+Reference [6],6.89,,,100
+Reference [9],8.00,8.50,,100
+Reference [10],,,0.910,100
+Ours (PSO-ANN),0.97,1.01,0.976,100

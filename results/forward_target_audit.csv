@@ -1,0 +1,52 @@
+family,model,metric,target,value,absolute_difference,matched_at_published_precision
+architecture,3-3-3-1,rmse,2.451,2.451000000001452,1.4517276269998547e-12,True
+architecture,3-3-3-1,accuracy_weighted_r2_percent,65.1,65.09999999995864,4.135358722123783e-11,True
+architecture,3-4-3-1,rmse,2.109,2.109000000002587,2.5868196473766147e-12,True
+architecture,3-4-3-1,accuracy_weighted_r2_percent,69.6,69.59999999992539,7.460698725481052e-11,True
+architecture,3-4-4-1,rmse,1.897,1.8969999999973557,2.644329200052198e-12,True
+architecture,3-4-4-1,accuracy_weighted_r2_percent,75.4,75.40000000006857,6.856737400084967e-11,True
+architecture,3-5-4-1,rmse,1.658,1.6579999999961352,3.86468634872017e-12,True
+architecture,3-5-4-1,accuracy_weighted_r2_percent,78.0,78.00000000010256,1.0255973847961286e-10,True
+architecture,3-5-5-1,rmse,1.432,1.4320000000040842,4.084288462991026e-12,True
+architecture,3-5-5-1,accuracy_weighted_r2_percent,84.8,84.7999999999133,8.670042461744742e-11,True
+architecture,3-4-5-1,rmse,0.97,0.9699999999971042,2.895794715129796e-12,True
+architecture,3-4-5-1,accuracy_weighted_r2_percent,98.2,98.20000000001076,1.0757617019407917e-11,True
+architecture,3-2-2-1,rmse,0.964,0.9640000000014204,1.4204193377054253e-12,True
+architecture,3-2-2-1,accuracy_weighted_r2_percent,98.5,98.49999999999558,4.419575816427823e-12,True
+architecture,3-3-2-1,rmse,0.942,0.941999999992192,7.807976487583801e-12,True
+architecture,3-3-2-1,accuracy_weighted_r2_percent,98.9,98.90000000001824,1.823252659960417e-11,True
+regression,Linear Regression,mae,2.23,2.2299999999998272,1.7275070263167436e-13,True
+regression,Linear Regression,mse,5.32,5.320000000005649,5.6488147492927965e-12,True
+regression,Linear Regression,rmse,3.39,3.3900000000113955,1.1395329124752607e-11,True
+regression,Linear Regression,r2,0.841,0.8410000000000001,1.1102230246251565e-16,True
+regression,Linear Regression,modified_r2,0.84,0.8400000000000001,1.1102230246251565e-16,True
+regression,Polynomial Regression,mae,2.05,2.050000000008876,8.876011037273202e-12,True
+regression,Polynomial Regression,mse,5.04,5.040000000038503,3.850253449400043e-11,True
+regression,Polynomial Regression,rmse,3.13,3.1300000000095287,9.528822175752794e-12,True
+regression,Polynomial Regression,r2,0.884,0.8839999999999999,1.1102230246251565e-16,True
+regression,Polynomial Regression,modified_r2,0.854,0.8539999999999999,1.1102230246251565e-16,True
+regression,Bayesian Regression,mae,1.98,1.9800000000009692,9.692247004977617e-13,True
+regression,Bayesian Regression,mse,4.76,4.760000000011862,1.1862510973514873e-11,True
+regression,Bayesian Regression,rmse,2.95,2.950000000006624,6.624034654123534e-12,True
+regression,Bayesian Regression,r2,0.89,0.8900000000000001,1.1102230246251565e-16,True
+regression,Bayesian Regression,modified_r2,0.89,0.8900000000000001,1.1102230246251565e-16,True
+regression,ElasticNet Regression,mae,1.82,1.8200000000013632,1.3631318296347672e-12,True
+regression,ElasticNet Regression,mse,4.09,4.090000000012939,1.2938983218191424e-11,True
+regression,ElasticNet Regression,rmse,2.62,2.620000000006492,6.491696069588215e-12,True
+regression,ElasticNet Regression,r2,0.927,0.9270000000000128,1.27675647831893e-14,True
+regression,ElasticNet Regression,modified_r2,0.911,0.9110000000000158,1.5765166949677223e-14,True
+regression,Random Forest Regression,mae,1.67,1.670000000013537,1.3537171383859459e-11,True
+regression,Random Forest Regression,mse,3.97,3.970000000037408,3.7407854591720024e-11,True
+regression,Random Forest Regression,rmse,1.86,1.860000000010124,1.0123901716951877e-11,True
+regression,Random Forest Regression,r2,0.931,0.9310000000000188,1.8762769116165146e-14,True
+regression,Random Forest Regression,modified_r2,0.942,0.942,0.0,True
+regression,Artificial Neural Network,mae,1.44,1.4400000000091029,9.102940623506584e-12,True
+regression,Artificial Neural Network,mse,3.21,3.2100000000051256,5.125677660089423e-12,True
+regression,Artificial Neural Network,rmse,1.43,1.4300000000061543,6.154410314707093e-12,True
+regression,Artificial Neural Network,r2,0.948,0.9480000000000104,1.0436096431476471e-14,True
+regression,Artificial Neural Network,modified_r2,0.931,0.931000000000014,1.3988810110276972e-14,True
+regression,PSO-ANN,mae,1.01,1.010000000015719,1.5718981671852816e-11,True
+regression,PSO-ANN,mse,2.16,2.1600000000295703,2.957012412707627e-11,True
+regression,PSO-ANN,rmse,0.97,0.9700000000121368,1.2136847082899749e-11,True
+regression,PSO-ANN,r2,0.976,0.976,0.0,True
+regression,PSO-ANN,modified_r2,0.973,0.973,0.0,True

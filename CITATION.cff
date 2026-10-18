@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying TechRxiv manuscript when using this research code."
+title: "Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm"
+type: software
+version: "1.0.0"
+date-released: 2026-10-17
+preferred-citation:
+  type: generic
+  title: "Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm"
+  authors:
+    - family-names: Raghavan
+      given-names: Dharini
+    - family-names: Suma
+      given-names: K. V.
+    - family-names: Karki
+      given-names: Maya V.
+    - family-names: Sharma
+      given-names: Narayana
+    - family-names: Rao
+      given-names: Gundu H. R.
+  year: 2023
+  doi: 10.36227/techrxiv.24465955.v1
+  url: https://doi.org/10.36227/techrxiv.24465955.v1

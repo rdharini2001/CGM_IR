@@ -1,0 +1,4 @@
+# Standard fitting dependencies are included in requirements.txt.
+# PyTorch is needed only for rebuilding the optimizer-slope comparison.
+-r requirements.txt
+torch>=2.2

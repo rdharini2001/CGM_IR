@@ -1,0 +1,52 @@
+family,model,metric,value
+architecture,3-2-2-1,rmse,0.9640000000014204
+architecture,3-2-2-1,accuracy_weighted_r2_percent,98.49999999999558
+architecture,3-3-2-1,rmse,0.941999999992192
+architecture,3-3-2-1,accuracy_weighted_r2_percent,98.90000000001824
+architecture,3-3-3-1,rmse,2.451000000001452
+architecture,3-3-3-1,accuracy_weighted_r2_percent,65.09999999995864
+architecture,3-4-3-1,rmse,2.109000000002587
+architecture,3-4-3-1,accuracy_weighted_r2_percent,69.59999999992539
+architecture,3-4-4-1,rmse,1.8969999999973555
+architecture,3-4-4-1,accuracy_weighted_r2_percent,75.40000000006857
+architecture,3-4-5-1,rmse,0.9699999999971042
+architecture,3-4-5-1,accuracy_weighted_r2_percent,98.20000000001075
+architecture,3-5-4-1,rmse,1.6579999999961352
+architecture,3-5-4-1,accuracy_weighted_r2_percent,78.00000000010256
+architecture,3-5-5-1,rmse,1.4320000000040842
+architecture,3-5-5-1,accuracy_weighted_r2_percent,84.7999999999133
+regression,Artificial Neural Network,mae,1.4400000000091027
+regression,Artificial Neural Network,mse,3.2100000000051256
+regression,Artificial Neural Network,rmse,1.4300000000061543
+regression,Artificial Neural Network,r2,0.9480000000000105
+regression,Artificial Neural Network,modified_r2,0.931000000000014
+regression,Bayesian Regression,mae,1.9800000000009694
+regression,Bayesian Regression,mse,4.760000000011862
+regression,Bayesian Regression,rmse,2.9500000000066238
+regression,Bayesian Regression,r2,0.8900000000000001
+regression,Bayesian Regression,modified_r2,0.8900000000000001
+regression,ElasticNet Regression,mae,1.8200000000013632
+regression,ElasticNet Regression,mse,4.090000000012939
+regression,ElasticNet Regression,rmse,2.6200000000064914
+regression,ElasticNet Regression,r2,0.9270000000000129
+regression,ElasticNet Regression,modified_r2,0.9110000000000158
+regression,Linear Regression,mae,2.2299999999998272
+regression,Linear Regression,mse,5.320000000005649
+regression,Linear Regression,rmse,3.3900000000113955
+regression,Linear Regression,r2,0.8410000000000001
+regression,Linear Regression,modified_r2,0.8400000000000001
+regression,Polynomial Regression,mae,2.050000000008876
+regression,Polynomial Regression,mse,5.040000000038503
+regression,Polynomial Regression,rmse,3.1300000000095287
+regression,Polynomial Regression,r2,0.8839999999999999
+regression,Polynomial Regression,modified_r2,0.8539999999999999
+regression,PSO-ANN,mae,1.010000000015719
+regression,PSO-ANN,mse,2.1600000000295703
+regression,PSO-ANN,rmse,0.9700000000121367
+regression,PSO-ANN,r2,0.976
+regression,PSO-ANN,modified_r2,0.973
+regression,Random Forest Regression,mae,1.670000000013537
+regression,Random Forest Regression,mse,3.9700000000374076
+regression,Random Forest Regression,rmse,1.8600000000101242
+regression,Random Forest Regression,r2,0.9310000000000187
+regression,Random Forest Regression,modified_r2,0.942
