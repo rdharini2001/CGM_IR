@@ -1,9 +1,0 @@
-{
-  "architecture_endpoints_fitted": 16,
-  "regression_endpoints_fitted": 35,
-  "all_conditioned_targets_met": true,
-  "training_observations": 30,
-  "inference_does_not_read_targets": true,
-  "fitting_uses_published_targets": true,
-  "validation_type": "in-sample inverse-constrained calibration"
-}

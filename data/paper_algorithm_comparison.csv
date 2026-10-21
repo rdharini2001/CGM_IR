@@ -1,8 +1,0 @@
-model,mae,mse,rmse,r2,modified_r2
-Linear Regression,2.23,5.32,3.39,0.841,0.840
-Polynomial Regression,2.05,5.04,3.13,0.884,0.854
-Bayesian Regression,1.98,4.76,2.95,0.890,0.890
-ElasticNet Regression,1.82,4.09,2.62,0.927,0.911
-Random Forest Regression,1.67,3.97,1.86,0.931,0.942
-Artificial Neural Network,1.44,3.21,1.43,0.948,0.931
-PSO-ANN,1.01,2.16,0.97,0.976,0.973

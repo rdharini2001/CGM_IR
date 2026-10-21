@@ -1,0 +1,12 @@
+{
+  "samples": 30,
+  "participants": 10,
+  "protocols": {
+    "discovery_fit": "All 30 measurements used in model fitting and scoring; descriptive only",
+    "participant_5fold": "5-fold grouped validation, no participant shared between training and evaluation",
+    "measurement_phase_3fold": "3-fold phase-blocked validation; participant identity may recur in training and evaluation"
+  },
+  "noise_prior": "reference rounding interval 1 mg/dL, prior variance interval^2/12",
+  "published_results_used_during_fitting": false,
+  "seed": 2023
+}

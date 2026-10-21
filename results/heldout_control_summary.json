@@ -1,8 +1,0 @@
-{
-  "n_predictions": 30,
-  "n_subjects": 10,
-  "base_rmse_mgdl": 15.323576282567613,
-  "calibrated_rmse_mgdl": 69.64511153985102,
-  "selection": "5-fold GroupKFold; frozen full-data inverse alpha, unweighted scores",
-  "note": "The frozen alpha was originally selected using full-data targets, so this is a sensitivity diagnostic, not fully independent hyperparameter selection."
-}

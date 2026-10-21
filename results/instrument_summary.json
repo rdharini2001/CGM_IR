@@ -1,0 +1,10 @@
+{
+  "model": "Recorded optical instrument",
+  "protocol": "paired_measurements",
+  "n": 30,
+  "mae": 1.6866666666666674,
+  "mse": 3.3593333333333377,
+  "rmse": 1.8328484207193287,
+  "r2": 0.9835889029414479,
+  "clarke_zone_a_percent": 100.0
+}

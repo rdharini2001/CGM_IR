@@ -1,10 +1,7 @@
 __pycache__/
-*.py[cod]
 .pytest_cache/
+*.py[cod]
 .venv/
-*.egg-info/
-.DS_Store
 .env
-.ipynb_checkpoints/
-build/
-dist/
+.DS_Store
+*.log

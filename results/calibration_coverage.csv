@@ -1,0 +1,52 @@
+section,model,metric,published_value,calibration_value,direction,comparison_basis,meets_or_exceeds,within_5_percent,relative_difference,interpretation
+architecture,3-3-3-1,rmse,2.451,0.4481475958161805,min,calibration_rmse,True,False,0.8171572436490492,"same named statistic, different evaluation definition may apply"
+architecture,3-3-3-1,accuracy_percent,65.1,99.9018869771468,max,100_times_r2_proxy,True,False,0.5345911978056346,accuracy proxy (100*R2); not a confirmed identical definition
+architecture,3-4-3-1,rmse,2.109,0.4476775696065129,min,calibration_rmse,True,False,0.7877299338044035,"same named statistic, different evaluation definition may apply"
+architecture,3-4-3-1,accuracy_percent,69.6,99.90209267504252,max,100_times_r2_proxy,True,False,0.4353748947563582,accuracy proxy (100*R2); not a confirmed identical definition
+architecture,3-4-4-1,rmse,1.897,0.4494426477273405,min,calibration_rmse,True,False,0.7630771493266523,"same named statistic, different evaluation definition may apply"
+architecture,3-4-4-1,accuracy_percent,75.4,99.9013191059841,max,100_times_r2_proxy,True,False,0.32495118177697735,accuracy proxy (100*R2); not a confirmed identical definition
+architecture,3-5-4-1,rmse,1.658,0.4540983325431093,min,calibration_rmse,True,False,0.7261168078750849,"same named statistic, different evaluation definition may apply"
+architecture,3-5-4-1,accuracy_percent,78.0,99.89926408651375,max,100_times_r2_proxy,True,False,0.2807597959809455,accuracy proxy (100*R2); not a confirmed identical definition
+architecture,3-5-5-1,rmse,1.432,0.4477105172675469,min,calibration_rmse,True,False,0.6873529907349533,"same named statistic, different evaluation definition may apply"
+architecture,3-5-5-1,accuracy_percent,84.8,99.90207826316988,max,100_times_r2_proxy,True,False,0.17809054555624867,accuracy proxy (100*R2); not a confirmed identical definition
+architecture,3-4-5-1,rmse,0.97,0.4529461404480576,min,calibration_rmse,True,False,0.5330452160329303,"same named statistic, different evaluation definition may apply"
+architecture,3-4-5-1,accuracy_percent,98.2,99.89977463616906,max,100_times_r2_proxy,True,True,0.017309314013941476,accuracy proxy (100*R2); not a confirmed identical definition
+architecture,3-2-2-1,rmse,0.964,0.4483919144300571,min,calibration_rmse,True,False,0.53486315930492,"same named statistic, different evaluation definition may apply"
+architecture,3-2-2-1,accuracy_percent,98.5,99.90177997056183,max,100_times_r2_proxy,True,True,0.014231268736668355,accuracy proxy (100*R2); not a confirmed identical definition
+architecture,3-3-2-1,rmse,0.942,0.4508531297077615,min,calibration_rmse,True,False,0.5213873357667075,"same named statistic, different evaluation definition may apply"
+architecture,3-3-2-1,accuracy_percent,98.9,99.90069875529338,max,100_times_r2_proxy,True,True,0.010118288728952181,accuracy proxy (100*R2); not a confirmed identical definition
+regression,Linear Regression,mae,2.23,0.1419443420481997,min,calibration_mae,True,False,0.9363478286779374,"same named statistic, different evaluation definition may apply"
+regression,Linear Regression,mse,5.32,0.201877681134393,min,calibration_mse,True,False,0.9620530674559412,"same named statistic, different evaluation definition may apply"
+regression,Linear Regression,rmse,3.39,0.4493080025265442,min,calibration_rmse,True,False,0.8674607662163587,"same named statistic, different evaluation definition may apply"
+regression,Linear Regression,r2,0.841,0.999013782232868,max,calibration_r2,True,False,0.1878879693613175,"same named statistic, different evaluation definition may apply"
+regression,Linear Regression,adjusted_r2,0.84,0.998899987875122,max,adjusted_r2_three_features,True,False,0.18916665223228815,"same named statistic, different evaluation definition may apply"
+regression,Polynomial Regression,mae,2.05,0.1414031426444883,min,calibration_mae,True,False,0.9310228572465911,"same named statistic, different evaluation definition may apply"
+regression,Polynomial Regression,mse,5.04,0.1972987217103094,min,calibration_mse,True,False,0.9608534282320815,"same named statistic, different evaluation definition may apply"
+regression,Polynomial Regression,rmse,3.13,0.4441832073709106,min,calibration_rmse,True,False,0.8580884321498689,"same named statistic, different evaluation definition may apply"
+regression,Polynomial Regression,r2,0.884,0.9990361514770244,max,calibration_r2,True,False,0.130131393073557,"same named statistic, different evaluation definition may apply"
+regression,Polynomial Regression,adjusted_r2,0.854,0.998924938185912,max,adjusted_r2_three_features,True,False,0.16970133277038876,"same named statistic, different evaluation definition may apply"
+regression,Bayesian Regression,mae,1.98,0.1416690954605788,min,calibration_mae,True,False,0.9284499517875865,"same named statistic, different evaluation definition may apply"
+regression,Bayesian Regression,mse,4.76,0.2009318693901861,min,calibration_mse,True,False,0.9577874223970196,"same named statistic, different evaluation definition may apply"
+regression,Bayesian Regression,rmse,2.95,0.4482542463716167,min,calibration_rmse,True,False,0.8480494080096215,"same named statistic, different evaluation definition may apply"
+regression,Bayesian Regression,r2,0.89,0.999018402735448,max,calibration_r2,True,False,0.12249258734319993,"same named statistic, different evaluation definition may apply"
+regression,Bayesian Regression,adjusted_r2,0.89,0.998905141512615,max,adjusted_r2_three_features,True,False,0.12236532754226404,"same named statistic, different evaluation definition may apply"
+regression,ElasticNet Regression,mae,1.82,0.1419197762233892,min,calibration_mae,True,False,0.9220221009761598,"same named statistic, different evaluation definition may apply"
+regression,ElasticNet Regression,mse,4.09,0.2017752584686275,min,calibration_mse,True,False,0.9506661959734407,"same named statistic, different evaluation definition may apply"
+regression,ElasticNet Regression,rmse,2.62,0.44919400983164,min,calibration_rmse,True,False,0.8285519046444123,"same named statistic, different evaluation definition may apply"
+regression,ElasticNet Regression,r2,0.927,0.9990142825905706,max,calibration_r2,True,False,0.07768531023794015,"same named statistic, different evaluation definition may apply"
+regression,ElasticNet Regression,adjusted_r2,0.911,0.9989005459664057,max,adjusted_r2_three_features,True,False,0.09648797581383711,"same named statistic, different evaluation definition may apply"
+regression,Random Forest Regression,mae,1.67,0.099785982679279,min,calibration_mae,True,False,0.9402479145633059,"same named statistic, different evaluation definition may apply"
+regression,Random Forest Regression,mse,3.97,0.0920869740137158,min,calibration_mse,True,False,0.9768042886615326,"same named statistic, different evaluation definition may apply"
+regression,Random Forest Regression,rmse,1.86,0.3034583563089272,min,calibration_rmse,True,False,0.8368503460704693,"same named statistic, different evaluation definition may apply"
+regression,Random Forest Regression,r2,0.931,0.9995501344706188,max,calibration_r2,True,False,0.07363064927026718,"same named statistic, different evaluation definition may apply"
+regression,Random Forest Regression,adjusted_r2,0.942,0.9994982269095364,max,adjusted_r2_three_features,True,False,0.061038457441121484,"same named statistic, different evaluation definition may apply"
+regression,Artificial Neural Network,mae,1.44,0.1686652877546971,min,calibration_mae,True,False,0.8828713279481271,"same named statistic, different evaluation definition may apply"
+regression,Artificial Neural Network,mse,3.21,0.2077198380264064,min,calibration_mse,True,False,0.9352897700852316,"same named statistic, different evaluation definition may apply"
+regression,Artificial Neural Network,rmse,1.43,0.4557629186610144,min,calibration_rmse,True,False,0.6812846722650249,"same named statistic, different evaluation definition may apply"
+regression,Artificial Neural Network,r2,0.948,0.9989852419856604,max,calibration_r2,True,False,0.05378190082875576,"same named statistic, different evaluation definition may apply"
+regression,Artificial Neural Network,adjusted_r2,0.931,0.9988681545224674,max,adjusted_r2_three_features,True,False,0.07289812515839668,"same named statistic, different evaluation definition may apply"
+regression,PSO-ANN,mae,1.01,0.1429815533576809,min,calibration_mae,True,False,0.8584341055864545,"same named statistic, different evaluation definition may apply"
+regression,PSO-ANN,mse,2.16,0.2032685445672835,min,calibration_mse,True,False,0.9058941923299614,"same named statistic, different evaluation definition may apply"
+regression,PSO-ANN,rmse,0.97,0.4508531297077615,min,calibration_rmse,True,False,0.5352029590641634,"same named statistic, different evaluation definition may apply"
+regression,PSO-ANN,r2,0.976,0.9990069875529338,max,calibration_r2,True,True,0.023572733148497792,"same named statistic, different evaluation definition may apply"
+regression,PSO-ANN,adjusted_r2,0.973,0.998892409193657,max,adjusted_r2_three_features,True,True,0.026610903590603273,"same named statistic, different evaluation definition may apply"

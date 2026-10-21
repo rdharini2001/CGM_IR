@@ -1,0 +1,11 @@
+{
+  "total": 51,
+  "meets_or_exceeds": 51,
+  "within_5_percent": 5,
+  "directly_comparable_performance_thresholds": 43,
+  "directly_comparable_passed": 43,
+  "proxy_accuracy_passed": 8,
+  "all_discovery_population": true,
+  "accuracy_percent_is_proxy": true,
+  "manuscript_scores_used_in_training": false
+}

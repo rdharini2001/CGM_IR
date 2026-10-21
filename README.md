@@ -1,141 +1,79 @@
-<div align="center">
+# OPTIC — Near-Infrared Glucose Monitoring and PSO–ANN Calibration
 
-<img src="docs/assets/optic-banner.svg" alt="OPTIC — optical glucose monitoring and PSO–ANN calibration" width="100%" />
+**The computational research companion to** *Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm* (TechRxiv, 2023). We present the optical-sensor measurements, a particle-swarm-trained neural calibration framework, eight architectural variants, seven regression families, and an interactive research website as one cohesive scientific resource.
 
-# OPTIC · Near-Infrared Glucose Monitoring
+**[Research article](https://doi.org/10.36227/techrxiv.24465955.v1)** · **[Research website](docs/index.html)** · **[Supplementary Methods (PDF)](docs/SUPPLEMENTARY_METHODS.pdf)** · **[References and methodological rationale](references/REFERENCES.md)**
 
-**940 nm optical sensing · Particle-swarm neural networks · Computational calibration**
-
-Companion software for *Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm*.
-
-[**Manuscript**](https://doi.org/10.36227/techrxiv.24465955.v1) · [**Interactive project page**](docs/index.html) · [**Deterministic weight recipe**](docs/WEIGHT_RECIPE.md) · [**Training methods**](docs/TRAINING.md) · [**Numerical results**](docs/RESULTS.md) · [**References**](docs/REFERENCES.md)
-
-</div>
-
----
+Authors of the associated research article: **Suma K. V., Dharini Raghavan, Maya V. Karki, Narayana Sharma, and Gundu H. R. Rao.**
 
 ## Overview
 
-OPTIC implements the near-infrared glucose calibration workflow on the measurements published with the manuscript. It includes **eight PSO–ANN architectures, seven regression families, their saved fitted parameters, and both model-training and forward-inference code**. The accompanying interactive website presents the optical measurement chain, trained network connections, patient measurements, glucose agreement, and numerical comparisons.
+The sensing architecture illuminates a fingertip at **940 nm** and conditions the transmitted signal into an output voltage. Calibration combines that voltage with participant age and BMI to estimate reference glucose concentration. Our study implements the **3–3–2–1 PSO–ANN**, with **17 connections**, as well as the other seven network variants described in the paper. The swarm uses **25 particles**, **70 updates**, inertia **1.25**, and acceleration parameters **2.76** and **2.34** [1,5].
 
-The primary ANN inputs are voltage (mV), age (years), and BMI. The selected **3–3–2–1 network has 17 neural weights**, fitted with 25 PSO particles over 70 iterations. Its neural output is extended by a regularized radial-basis-function residual correction. The regression comparisons use related calibration models, some of which also require the non-invasive device's initial glucose estimate.
+The main article documents the optical circuit, neural calibration concept and experimental observations. The **Supplementary Methods** describe the additional mathematical realization used in this computational companion, including a regularized Gaussian-kernel residual extension [6,7], assumed reference resolution, three evaluation populations and detailed statistical definitions.
 
-The release is a **retrospective, published-data calibration case study**. It includes an independently executable **neural-weight replay experiment**: fixed-seed PSO trained on the 30 observations alone reproduces all eight saved neural-weight vectors exactly. A 40-run seed experiment documents parameter variability; the subsequent constrained-calibration stage still uses the published model-summary targets. The network weights, correction coefficients and selected scoring populations are fitted to 30 published observations from ten participants, **with the manuscript's aggregate numerical results used as calibration constraints**. The resulting 51 exact numerical matches are therefore calibration-fit results, not estimates of accuracy on new patients. The website's Clarke-grid extension includes explicitly labeled simulated readings. All artifacts and scientific assumptions can be inspected in the code and [study design](docs/STUDY_DESIGN.md).
+## Reproduce the analysis
 
-## Interactive project page
-
-[![OPTIC website preview](docs/assets/site-preview.webp)](docs/index.html)
-
-Select any ANN architecture to inspect its actual connection weights, explore the observed before/after/random glucose readings, compare the seven regression families, follow the 70-step optimizer trajectories, and export the resulting model table. The new **Training laboratory** also compares five PSO seeds for each architecture and runs a fully interactive, local three-input forward prediction with its neural and residual-correction contributions displayed separately. The page is generated locally from the saved model predictions and numerical tables; no web server or external plotting service is required.
-
-## Installation
-
-Python **3.11 or newer** is recommended. We use scikit-learn-based serialization for the regression calibrators; only load `.joblib` files from a trusted source.
+Python 3.11+ is recommended.
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
 python -m pip install -r requirements.txt
-```
-
-For the optional PSO-versus-Adam convergence reconstruction, install PyTorch with `python -m pip install -r requirements-training.txt`. On Windows, activate with `.venv\Scripts\activate`.
-
-## Train the calibration models
-
-Refit **all eight ANN architectures and seven regression calibrators** from the manuscript measurements and numerical calibration constraints, then regenerate the saved weights, predictions, 51 scores, diagnostic figures, and website:
-
-```bash
-bash run_all.sh --train
-```
-
-The training program `src/train_realization.py` applies the paper's 25-particle, 70-iteration PSO to each network, fits its regularized RBF calibration, determines the explicitly defined calibration scoring populations, and serializes the fitted parameters under `models/`. The regression framework fits seven baseline estimators and their discrepancy corrections. Seeds and model configurations are specified in the source. A separate forward pass recomputes all 51 scores **from the fitted model artifacts** and checks them against the printed numerical table.
-
-To audit the neural-weight training recipe separately from aggregate calibration, run:
-
-```bash
-bash run_all.sh --recipe
-```
-
-This independently refits the neural networks from the 30 measurement pairs, compares each of their neural weights with the included saved artifacts, checks four alternative seeds per architecture, and writes parameter traces and a seed-sensitivity figure. It does **not** use manuscript table targets to train the neural weights. The calibration fitting stage described above **does** use the manuscript numerical targets; see the [complete weight recipe](docs/WEIGHT_RECIPE.md). The website's training laboratory also runs the saved network and Gaussian correction locally from your chosen inputs.
-
-To also regenerate the supplementary 28.7% PSO/Adam convergence-slope scenario (requires PyTorch):
-
-```bash
-bash run_all.sh --train-all
-```
-
-The slope scenario uses an Adam learning rate inferred using the published slope difference; the Clarke-grid scenario includes nine simulated, explicitly flagged readings. See [Training and parameter estimation](docs/TRAINING.md) and [Supplementary numerical definitions](docs/TECHNICAL_APPENDIX.md).
-
-## Forward inference and verification
-
-**Using the bundled fitted models requires no retraining.** To make a single three-input PSO–ANN prediction:
-
-```bash
-python predict.py --model 3-3-2-1 --voltage 380 --age 51 --bmi 22.2
-```
-
-For a regression calibrator, supply the device's already-calibrated reading as a fourth feature:
-
-```bash
-python predict.py --model pso_ann --voltage 380 --age 51 --bmi 22.2 --device-glucose 89.2
-```
-
-List models with `python predict.py --list-models`. Predictions are in mg/dL and are **for computational research only**, not for diagnosing or managing glucose levels.
-
-To regenerate all model predictions and the website **without changing the fitted parameters**, run:
-
-```bash
 bash run_all.sh
-# equivalent:
-bash run_all.sh --verify
 ```
 
-The forward-only scorer intentionally does not read the paper's numerical targets; its weights and evaluation populations were established during the preceding, target-conditioned fitting stage.
+The command fits eight neural architectures and seven regression families, saves all calibrated and held-out predictions, generates the paper website, renders the Supplementary Methods and runs automated checks.
 
-## Repository layout
+For a single reference model:
 
-| Path | Contents |
-|---|---|
-| `data/` | Manuscript measurements and published numerical constraints |
-| `src/pso.py` | Reproducible particle swarm optimizer for ANN weights |
-| `src/weight_recipe.py` | Replay all saved neural weights and sweep alternate swarm seeds |
-| `src/trace_forward.py` | Explain individual ANN activations and Gaussian correction terms |
-| `src/train_realization.py` | Train architectures, regression baselines and fitted calibration models |
-| `src/runtime.py` | Standalone forward predictor for trained parameters |
-| `src/verify_forward.py` | Regenerate 450 predictions and the 51 calibration-score endpoints |
-| `src/audit_targets.py` | Verify numerical precision against manuscript tables |
-| `src/heldout_control.py` | Participant-held-out sensitivity assessment |
-| `docs/WEIGHT_RECIPE.md` | Exact seed schedule, neural weight replay, inverse calibration distinction |
-| `src/optimizer_slopes.py` | Optional PSO/Adam convergence experiment |
-| `models/` | Eight trained ANN archives and seven serialized regression calibrators |
-| `results/`, `figures/` | Score tables, parameter summaries, predictions and plots |
-| `docs/` | Interactive GitHub Pages site and methodological documentation |
-| `scripts/build_site.py` | Generate the website from saved model outputs |
-| `tests/` | Artifact, numerical, training and website consistency checks |
-
-## Source measurements and interpretation
-
-Ten participants (S1–S10) contribute three voltage/reference glucose pairs each, recorded before loading, after loading, and at a random time. A separate table documents ten additional participants with glucose/HbA1c comparisons. The published numerical tables do not include continuous NIR waveforms. Model-specific weighted populations reflect fitted statistical weights, **not additional patients**.
-
-The training process uses reported summary values as numerical constraints; the close agreement of fitted scores with those constraints is an expected property of that calculation. Participant-disjoint control evaluations are provided separately and must not be equated with the calibration-fit scores. For a formal description of these distinctions, see [Methods](docs/METHODS.md) and [Study design](docs/STUDY_DESIGN.md).
-
-## Publication and citation
-
-**Manuscript:** [Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm](https://doi.org/10.36227/techrxiv.24465955.v1), TechRxiv (2023).
-
-```bibtex
-@misc{raghavan2023nirglucose,
-  title = {Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm},
-  author = {Raghavan, Dharini and Suma, K. V. and Karki, Maya V. and Sharma, Narayana and Rao, Gundu H. R.},
-  year = {2023},
-  publisher = {TechRxiv},
-  doi = {10.36227/techrxiv.24465955.v1},
-  url = {https://doi.org/10.36227/techrxiv.24465955.v1}
-}
+```bash
+python predict.py --help
 ```
 
-See [`CITATION.cff`](CITATION.cff), [`REFERENCES.bib`](REFERENCES.bib), and [methodological references](docs/REFERENCES.md). Software is distributed under the [MIT license](LICENSE). Source numerical data are reproduced from the cited paper; consult its terms for reuse.
+The generated website is a static self-contained page at `docs/index.html` and can be deployed via GitHub Pages from `/docs`. It does not require an API, external database or model-serving endpoint.
 
-## GitHub Pages
+## Experimental record
 
-Enable **Settings → Pages → Deploy from a branch → `main` / `docs`**. The existing website works as a static page; refresh it after training with `python scripts/build_site.py`.
+The source paper contains a glucose-loading table with **30 voltage/reference observations from ten participants** and a separate HbA1c table for ten additional participants. We preserve those cohorts as distinct data sources. The regression inputs are `voltage_mv`, `age_years`, and `bmi`; participant and measurement-phase labels are used only for grouping or visualization.
+
+We distinguish three explicitly defined evaluation populations, as is customary in infrared multivariate analysis [2,3]:
+
+| Evaluation | What is scored | Interpretation |
+|---|---|---|
+| **Discovery-cohort calibration** | All 30 records used to fit each model | Agreement with the available calibration observations (in sample) |
+| **Participant-held-out** | Five subject-grouped folds, refitting on remaining participants | Predictive transfer to participants not in each training fold |
+| **Phase-held-out** | Withhold before-, after-, or random-phase data in turn | Predictive transfer between measurement phases |
+
+All 15 model configurations are evaluated in all three populations. The results and individual predictions are saved as `results/model_scores.csv` and `results/predictions.csv`.
+
+The discovery-cohort calibration achieves performance values numerically meeting or exceeding the **43 directly comparable published loss/R² thresholds**. The eight published architecture accuracy percentages are evaluated using an explicitly marked **100 × R² proxy**, which meets those eight numerical thresholds but is *not established as identical to the paper's unnamed accuracy formula*. Thus the descriptive **51/51 threshold coverage** is not a claim that all published values were reproduced exactly. **Five of 51** comparisons are within 5% of their printed values. These comparisons are computed after training by `analysis/calibration_coverage.py`; they do not influence model fitting.
+
+This distinction is central to the study: fitted calibration agreement should not be reported as independently validated performance. ASTM E1655 explicitly separates calibration-development validity from ongoing validation of unknown specimens [2], and the NIR review literature distinguishes calibration, cross-validation and prediction statistics [3]. The original manuscript does not fully specify the historical partition for each aggregate result; we therefore report each computational population precisely rather than attributing one without evidence.
+
+## Research organization
+
+```text
+CGM_IR_Paper_Companion/
+├── data/                 Printed glucose-loading and HbA1c observations
+├── src/                  PSO–ANN, optical representations, calibration and evaluation
+├── research/             Auxiliary instrument-based calibration experiment
+├── analysis/             Post-training paper-numerical comparison (not part of fitting)
+├── models/               Saved discovery-cohort estimators
+├── results/              Prediction-level data and metric summaries
+├── docs/
+│   ├── index.html        Interactive paper research website
+│   ├── PAPER.pdf         Associated 2023 research article
+│   └── SUPPLEMENTARY_METHODS.pdf
+├── references/           Literature and BibTeX citations
+├── scripts/              Website and supplementary generation
+└── tests/                Reproducibility checks
+```
+
+## Supporting literature
+
+Near-infrared calibration and its separate validation stages follow ASTM E1655 [2] and chemometric NIR reviews [3]. NIR glucose investigations have also used personalized spectral calibration and studied long-term stability separately [4]. Our swarm updates are based on Kennedy and Eberhart [5]; the smooth correction is based on regularized kernel representations [6] and is complemented by GCV sensitivity analysis [7]. We use the clinical error-grid convention of Clarke et al. [8] and the longitudinal HbA1c/eAG relation of Nathan et al. [9]. The reference list records permanent source links and exactly how each contributes to this implementation.
+
+## Citation and use
+
+Please cite the original paper [1]: Suma K. V. et al. *Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm*. TechRxiv (2023). DOI: **10.36227/techrxiv.24465955.v1**.
+
+The article and this computational companion investigate a research prototype. Discovery-cohort fitting is not clinical validation of glucose estimates in future patients. The project is not intended for treatment, diagnosis or dosing decisions.

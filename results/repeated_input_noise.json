@@ -1,0 +1,6 @@
+{
+  "duplicate_groups": 1,
+  "within_group_mle_variance": 1.0,
+  "within_group_unbiased_variance": 2.0,
+  "based_on_reference_pairs_only": true
+}

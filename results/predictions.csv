@@ -1,0 +1,1351 @@
+model,protocol,fold,subject,phase,reference_mgdl,predicted_mgdl
+3-3-3-1,discovery_fit,0,S1,before,87.0,87.00735971014457
+3-3-3-1,discovery_fit,0,S1,after,143.0,142.99690183235072
+3-3-3-1,discovery_fit,0,S1,random,131.0,130.99933118523438
+3-3-3-1,discovery_fit,0,S2,before,110.0,110.00866124936017
+3-3-3-1,discovery_fit,0,S2,after,138.0,137.9980982050001
+3-3-3-1,discovery_fit,0,S2,random,133.0,132.9932167661853
+3-3-3-1,discovery_fit,0,S3,before,120.0,119.99084222885416
+3-3-3-1,discovery_fit,0,S3,after,117.0,116.99954590409708
+3-3-3-1,discovery_fit,0,S3,random,117.0,116.99569952972985
+3-3-3-1,discovery_fit,0,S4,before,87.0,87.03247052125943
+3-3-3-1,discovery_fit,0,S4,after,110.0,109.97274410805424
+3-3-3-1,discovery_fit,0,S4,random,100.0,100.0055031452109
+3-3-3-1,discovery_fit,0,S5,before,132.0,132.07414597499104
+3-3-3-1,discovery_fit,0,S5,after,132.0,131.90726838873508
+3-3-3-1,discovery_fit,0,S5,random,129.0,129.01641910513888
+3-3-3-1,discovery_fit,0,S6,before,132.0,130.18437186290174
+3-3-3-1,discovery_fit,0,S6,after,130.0,130.18437186290174
+3-3-3-1,discovery_fit,0,S6,random,122.0,123.6292497766426
+3-3-3-1,discovery_fit,0,S7,before,118.0,117.99965933820609
+3-3-3-1,discovery_fit,0,S7,after,118.0,117.99448452860784
+3-3-3-1,discovery_fit,0,S7,random,103.0,103.01003671409914
+3-3-3-1,discovery_fit,0,S8,before,101.0,101.00780786405134
+3-3-3-1,discovery_fit,0,S8,after,122.0,122.00010504213863
+3-3-3-1,discovery_fit,0,S8,random,111.0,111.0064337655675
+3-3-3-1,discovery_fit,0,S9,before,110.0,110.07404509672693
+3-3-3-1,discovery_fit,0,S9,after,117.0,116.88189809035889
+3-3-3-1,discovery_fit,0,S9,random,105.0,105.05361864105411
+3-3-3-1,discovery_fit,0,S10,before,96.0,96.02257369130017
+3-3-3-1,discovery_fit,0,S10,after,118.0,117.99488308228109
+3-3-3-1,discovery_fit,0,S10,random,102.0,101.97603547078441
+3-3-3-1,participant_5fold,0,S4,before,87.0,104.55169284819297
+3-3-3-1,participant_5fold,0,S4,after,110.0,101.47054424496434
+3-3-3-1,participant_5fold,0,S4,random,100.0,117.5052109493167
+3-3-3-1,participant_5fold,0,S9,before,110.0,113.51586978674993
+3-3-3-1,participant_5fold,0,S9,after,117.0,113.72404338807631
+3-3-3-1,participant_5fold,0,S9,random,105.0,113.90550998966445
+3-3-3-1,participant_5fold,1,S3,before,120.0,105.33552950716575
+3-3-3-1,participant_5fold,1,S3,after,117.0,106.9706259667445
+3-3-3-1,participant_5fold,1,S3,random,117.0,105.86192109478553
+3-3-3-1,participant_5fold,1,S8,before,101.0,133.42102981768912
+3-3-3-1,participant_5fold,1,S8,after,122.0,135.67882787330154
+3-3-3-1,participant_5fold,1,S8,random,111.0,136.25391431093635
+3-3-3-1,participant_5fold,2,S2,before,110.0,133.95892508700678
+3-3-3-1,participant_5fold,2,S2,after,138.0,137.74149456557976
+3-3-3-1,participant_5fold,2,S2,random,133.0,135.5346439127661
+3-3-3-1,participant_5fold,2,S7,before,118.0,128.02375565596952
+3-3-3-1,participant_5fold,2,S7,after,118.0,129.72876963989833
+3-3-3-1,participant_5fold,2,S7,random,103.0,130.37453345954887
+3-3-3-1,participant_5fold,3,S6,before,132.0,118.0932563058605
+3-3-3-1,participant_5fold,3,S6,after,130.0,118.0932563058605
+3-3-3-1,participant_5fold,3,S6,random,122.0,118.12840681109628
+3-3-3-1,participant_5fold,3,S10,before,96.0,110.42143899288172
+3-3-3-1,participant_5fold,3,S10,after,118.0,87.75617760871822
+3-3-3-1,participant_5fold,3,S10,random,102.0,78.2650557660351
+3-3-3-1,participant_5fold,4,S1,before,87.0,117.76945151818441
+3-3-3-1,participant_5fold,4,S1,after,143.0,130.73662420242437
+3-3-3-1,participant_5fold,4,S1,random,131.0,123.57791751572587
+3-3-3-1,participant_5fold,4,S5,before,132.0,121.61725126241718
+3-3-3-1,participant_5fold,4,S5,after,132.0,121.53839860696385
+3-3-3-1,participant_5fold,4,S5,random,129.0,121.16360016639783
+3-3-3-1,measurement_phase_3fold,0,S1,random,131.0,122.82431327845885
+3-3-3-1,measurement_phase_3fold,0,S2,random,133.0,122.32325139329096
+3-3-3-1,measurement_phase_3fold,0,S3,random,117.0,140.35469952356857
+3-3-3-1,measurement_phase_3fold,0,S4,random,100.0,140.08333656225858
+3-3-3-1,measurement_phase_3fold,0,S5,random,129.0,131.95162566875103
+3-3-3-1,measurement_phase_3fold,0,S6,random,122.0,131.0930719373655
+3-3-3-1,measurement_phase_3fold,0,S7,random,103.0,121.6929223164459
+3-3-3-1,measurement_phase_3fold,0,S8,random,111.0,130.486071147587
+3-3-3-1,measurement_phase_3fold,0,S9,random,105.0,127.1848014723372
+3-3-3-1,measurement_phase_3fold,0,S10,random,102.0,76.23890879495752
+3-3-3-1,measurement_phase_3fold,1,S1,before,87.0,128.2965664234344
+3-3-3-1,measurement_phase_3fold,1,S2,before,110.0,130.54734624265677
+3-3-3-1,measurement_phase_3fold,1,S3,before,120.0,114.52654416748643
+3-3-3-1,measurement_phase_3fold,1,S4,before,87.0,104.0820180567529
+3-3-3-1,measurement_phase_3fold,1,S5,before,132.0,132.54013852117652
+3-3-3-1,measurement_phase_3fold,1,S6,before,132.0,127.60571628676843
+3-3-3-1,measurement_phase_3fold,1,S7,before,118.0,119.61372387782124
+3-3-3-1,measurement_phase_3fold,1,S8,before,101.0,131.56584502336602
+3-3-3-1,measurement_phase_3fold,1,S9,before,110.0,124.29599985525775
+3-3-3-1,measurement_phase_3fold,1,S10,before,96.0,105.34163112515716
+3-3-3-1,measurement_phase_3fold,2,S1,after,143.0,126.5557145976128
+3-3-3-1,measurement_phase_3fold,2,S2,after,138.0,131.60516644831043
+3-3-3-1,measurement_phase_3fold,2,S3,after,117.0,109.03564792683122
+3-3-3-1,measurement_phase_3fold,2,S4,after,110.0,96.82116789683812
+3-3-3-1,measurement_phase_3fold,2,S5,after,132.0,131.66965066855948
+3-3-3-1,measurement_phase_3fold,2,S6,after,130.0,130.0168597130913
+3-3-3-1,measurement_phase_3fold,2,S7,after,118.0,108.7345804051982
+3-3-3-1,measurement_phase_3fold,2,S8,after,122.0,117.35956064026912
+3-3-3-1,measurement_phase_3fold,2,S9,after,117.0,107.63667141820964
+3-3-3-1,measurement_phase_3fold,2,S10,after,118.0,106.83696804590559
+3-4-3-1,discovery_fit,0,S1,before,87.0,87.0056911156384
+3-4-3-1,discovery_fit,0,S1,after,143.0,142.99490133013512
+3-4-3-1,discovery_fit,0,S1,random,131.0,130.99767294488973
+3-4-3-1,discovery_fit,0,S2,before,110.0,110.00819606034443
+3-4-3-1,discovery_fit,0,S2,after,138.0,137.99750170140163
+3-4-3-1,discovery_fit,0,S2,random,133.0,132.99307188575276
+3-4-3-1,discovery_fit,0,S3,before,120.0,119.9909842491399
+3-4-3-1,discovery_fit,0,S3,after,117.0,117.00010159761709
+3-4-3-1,discovery_fit,0,S3,random,117.0,116.99689711527506
+3-4-3-1,discovery_fit,0,S4,before,87.0,87.03238481855558
+3-4-3-1,discovery_fit,0,S4,after,110.0,109.9727717022938
+3-4-3-1,discovery_fit,0,S4,random,100.0,100.00677598628587
+3-4-3-1,discovery_fit,0,S5,before,132.0,132.07026532033888
+3-4-3-1,discovery_fit,0,S5,after,132.0,131.91195004722334
+3-4-3-1,discovery_fit,0,S5,random,129.0,129.01515943014982
+3-4-3-1,discovery_fit,0,S6,before,132.0,130.18537049992744
+3-4-3-1,discovery_fit,0,S6,after,130.0,130.18537049992744
+3-4-3-1,discovery_fit,0,S6,random,122.0,123.62663649853327
+3-4-3-1,discovery_fit,0,S7,before,118.0,117.99978791818408
+3-4-3-1,discovery_fit,0,S7,after,118.0,117.99498257527738
+3-4-3-1,discovery_fit,0,S7,random,103.0,103.01078525252659
+3-4-3-1,discovery_fit,0,S8,before,101.0,101.00695783593957
+3-4-3-1,discovery_fit,0,S8,after,122.0,121.9991779935612
+3-4-3-1,discovery_fit,0,S8,random,111.0,111.00514628378905
+3-4-3-1,discovery_fit,0,S9,before,110.0,110.07530521479094
+3-4-3-1,discovery_fit,0,S9,after,117.0,116.88054547982546
+3-4-3-1,discovery_fit,0,S9,random,105.0,105.05446066731695
+3-4-3-1,discovery_fit,0,S10,before,96.0,96.02283550899469
+3-4-3-1,discovery_fit,0,S10,after,118.0,117.99499227614528
+3-4-3-1,discovery_fit,0,S10,random,102.0,101.9762187506335
+3-4-3-1,participant_5fold,0,S4,before,87.0,104.31919436170327
+3-4-3-1,participant_5fold,0,S4,after,110.0,101.02371248166574
+3-4-3-1,participant_5fold,0,S4,random,100.0,118.04800554913504
+3-4-3-1,participant_5fold,0,S9,before,110.0,113.69731239933454
+3-4-3-1,participant_5fold,0,S9,after,117.0,114.089246366112
+3-4-3-1,participant_5fold,0,S9,random,105.0,114.51882366813678
+3-4-3-1,participant_5fold,1,S3,before,120.0,106.14544328518771
+3-4-3-1,participant_5fold,1,S3,after,117.0,107.91659284718149
+3-4-3-1,participant_5fold,1,S3,random,117.0,106.7223036165571
+3-4-3-1,participant_5fold,1,S8,before,101.0,113.45033186509721
+3-4-3-1,participant_5fold,1,S8,after,122.0,123.45243229782822
+3-4-3-1,participant_5fold,1,S8,random,111.0,136.795441586304
+3-4-3-1,participant_5fold,2,S2,before,110.0,124.57552639229284
+3-4-3-1,participant_5fold,2,S2,after,138.0,131.88502371954291
+3-4-3-1,participant_5fold,2,S2,random,133.0,128.54069551736595
+3-4-3-1,participant_5fold,2,S7,before,118.0,133.003289438927
+3-4-3-1,participant_5fold,2,S7,after,118.0,138.90503851907687
+3-4-3-1,participant_5fold,2,S7,random,103.0,140.48976131639617
+3-4-3-1,participant_5fold,3,S6,before,132.0,122.32316260308723
+3-4-3-1,participant_5fold,3,S6,after,130.0,122.32316260308723
+3-4-3-1,participant_5fold,3,S6,random,122.0,122.46665180588934
+3-4-3-1,participant_5fold,3,S10,before,96.0,110.77318892203117
+3-4-3-1,participant_5fold,3,S10,after,118.0,89.36020766764314
+3-4-3-1,participant_5fold,3,S10,random,102.0,78.96948921799256
+3-4-3-1,participant_5fold,4,S1,before,87.0,111.0796864594848
+3-4-3-1,participant_5fold,4,S1,after,143.0,130.18611641224197
+3-4-3-1,participant_5fold,4,S1,random,131.0,121.91217871779483
+3-4-3-1,participant_5fold,4,S5,before,132.0,123.60146759866498
+3-4-3-1,participant_5fold,4,S5,after,132.0,123.41389849330365
+3-4-3-1,participant_5fold,4,S5,random,129.0,122.32447088399334
+3-4-3-1,measurement_phase_3fold,0,S1,random,131.0,115.96243600215733
+3-4-3-1,measurement_phase_3fold,0,S2,random,133.0,123.99668184580533
+3-4-3-1,measurement_phase_3fold,0,S3,random,117.0,140.13431923736348
+3-4-3-1,measurement_phase_3fold,0,S4,random,100.0,140.74355001827416
+3-4-3-1,measurement_phase_3fold,0,S5,random,129.0,132.05601156529468
+3-4-3-1,measurement_phase_3fold,0,S6,random,122.0,131.1552283244718
+3-4-3-1,measurement_phase_3fold,0,S7,random,103.0,122.84987368224418
+3-4-3-1,measurement_phase_3fold,0,S8,random,111.0,132.590891671357
+3-4-3-1,measurement_phase_3fold,0,S9,random,105.0,126.97199256805249
+3-4-3-1,measurement_phase_3fold,0,S10,random,102.0,76.08379743722924
+3-4-3-1,measurement_phase_3fold,1,S1,before,87.0,141.14290236927525
+3-4-3-1,measurement_phase_3fold,1,S2,before,110.0,133.6345816262821
+3-4-3-1,measurement_phase_3fold,1,S3,before,120.0,114.10292289099385
+3-4-3-1,measurement_phase_3fold,1,S4,before,87.0,104.38817643636312
+3-4-3-1,measurement_phase_3fold,1,S5,before,132.0,132.4906085452359
+3-4-3-1,measurement_phase_3fold,1,S6,before,132.0,127.60630334626559
+3-4-3-1,measurement_phase_3fold,1,S7,before,118.0,115.29059088978586
+3-4-3-1,measurement_phase_3fold,1,S8,before,101.0,129.46417482653465
+3-4-3-1,measurement_phase_3fold,1,S9,before,110.0,124.18482398221849
+3-4-3-1,measurement_phase_3fold,1,S10,before,96.0,104.82033137976481
+3-4-3-1,measurement_phase_3fold,2,S1,after,143.0,120.05944151513242
+3-4-3-1,measurement_phase_3fold,2,S2,after,138.0,127.0811190924667
+3-4-3-1,measurement_phase_3fold,2,S3,after,117.0,115.16460609506716
+3-4-3-1,measurement_phase_3fold,2,S4,after,110.0,97.3439217096558
+3-4-3-1,measurement_phase_3fold,2,S5,after,132.0,131.63070067756036
+3-4-3-1,measurement_phase_3fold,2,S6,after,130.0,129.99758735602995
+3-4-3-1,measurement_phase_3fold,2,S7,after,118.0,108.6550735490013
+3-4-3-1,measurement_phase_3fold,2,S8,after,122.0,111.6741423443487
+3-4-3-1,measurement_phase_3fold,2,S9,after,117.0,107.86057730972958
+3-4-3-1,measurement_phase_3fold,2,S10,after,118.0,100.78161409659695
+3-4-4-1,discovery_fit,0,S1,before,87.0,87.00460242521015
+3-4-4-1,discovery_fit,0,S1,after,143.0,142.9979035468241
+3-4-4-1,discovery_fit,0,S1,random,131.0,131.00012283983196
+3-4-4-1,discovery_fit,0,S2,before,110.0,110.01037602419325
+3-4-4-1,discovery_fit,0,S2,after,138.0,138.00069863086293
+3-4-4-1,discovery_fit,0,S2,random,133.0,132.9947276137464
+3-4-4-1,discovery_fit,0,S3,before,120.0,119.9912840275636
+3-4-4-1,discovery_fit,0,S3,after,117.0,117.00087336238224
+3-4-4-1,discovery_fit,0,S3,random,117.0,116.99698939352257
+3-4-4-1,discovery_fit,0,S4,before,87.0,87.03270220113947
+3-4-4-1,discovery_fit,0,S4,after,110.0,109.97268454273772
+3-4-4-1,discovery_fit,0,S4,random,100.0,100.00665022686613
+3-4-4-1,discovery_fit,0,S5,before,132.0,132.08304827844168
+3-4-4-1,discovery_fit,0,S5,after,132.0,131.89690599815748
+3-4-4-1,discovery_fit,0,S5,random,129.0,129.0190839787353
+3-4-4-1,discovery_fit,0,S6,before,132.0,130.18137588305024
+3-4-4-1,discovery_fit,0,S6,after,130.0,130.18137588305024
+3-4-4-1,discovery_fit,0,S6,random,122.0,123.63577980695975
+3-4-4-1,discovery_fit,0,S7,before,118.0,117.99742165005368
+3-4-4-1,discovery_fit,0,S7,after,118.0,117.99348305444202
+3-4-4-1,discovery_fit,0,S7,random,103.0,103.00878736104288
+3-4-4-1,discovery_fit,0,S8,before,101.0,101.00565897290804
+3-4-4-1,discovery_fit,0,S8,after,122.0,121.9989912506249
+3-4-4-1,discovery_fit,0,S8,random,111.0,111.00716448730563
+3-4-4-1,discovery_fit,0,S9,before,110.0,110.07455326745037
+3-4-4-1,discovery_fit,0,S9,after,117.0,116.88141755465718
+3-4-4-1,discovery_fit,0,S9,random,105.0,105.05378794547369
+3-4-4-1,discovery_fit,0,S10,before,96.0,96.02312002076107
+3-4-4-1,discovery_fit,0,S10,after,118.0,117.99344950664171
+3-4-4-1,discovery_fit,0,S10,random,102.0,101.97557985759808
+3-4-4-1,participant_5fold,0,S4,before,87.0,104.31624775764477
+3-4-4-1,participant_5fold,0,S4,after,110.0,101.06583688788903
+3-4-4-1,participant_5fold,0,S4,random,100.0,115.490421498099
+3-4-4-1,participant_5fold,0,S9,before,110.0,112.62120528045374
+3-4-4-1,participant_5fold,0,S9,after,117.0,112.97440038257287
+3-4-4-1,participant_5fold,0,S9,random,105.0,113.47543286902987
+3-4-4-1,participant_5fold,1,S3,before,120.0,103.11621533415871
+3-4-4-1,participant_5fold,1,S3,after,117.0,104.86840092583076
+3-4-4-1,participant_5fold,1,S3,random,117.0,105.68272401768087
+3-4-4-1,participant_5fold,1,S8,before,101.0,126.69874297571312
+3-4-4-1,participant_5fold,1,S8,after,122.0,126.820933235923
+3-4-4-1,participant_5fold,1,S8,random,111.0,127.02958760020215
+3-4-4-1,participant_5fold,2,S2,before,110.0,122.76764582455972
+3-4-4-1,participant_5fold,2,S2,after,138.0,131.66055772816685
+3-4-4-1,participant_5fold,2,S2,random,133.0,128.14560599703555
+3-4-4-1,participant_5fold,2,S7,before,118.0,135.49573248588544
+3-4-4-1,participant_5fold,2,S7,after,118.0,142.08635863142587
+3-4-4-1,participant_5fold,2,S7,random,103.0,142.68803164344487
+3-4-4-1,participant_5fold,3,S6,before,132.0,118.14422770378552
+3-4-4-1,participant_5fold,3,S6,after,130.0,118.14422770378552
+3-4-4-1,participant_5fold,3,S6,random,122.0,118.2953024244307
+3-4-4-1,participant_5fold,3,S10,before,96.0,110.24324757946867
+3-4-4-1,participant_5fold,3,S10,after,118.0,69.39098559628466
+3-4-4-1,participant_5fold,3,S10,random,102.0,74.10208194386995
+3-4-4-1,participant_5fold,4,S1,before,87.0,124.45532007486032
+3-4-4-1,participant_5fold,4,S1,after,143.0,126.23692547681466
+3-4-4-1,participant_5fold,4,S1,random,131.0,126.14531299382958
+3-4-4-1,participant_5fold,4,S5,before,132.0,124.05923043857567
+3-4-4-1,participant_5fold,4,S5,after,132.0,123.88286127345809
+3-4-4-1,participant_5fold,4,S5,random,129.0,122.92338980363536
+3-4-4-1,measurement_phase_3fold,0,S1,random,131.0,121.21983914521797
+3-4-4-1,measurement_phase_3fold,0,S2,random,133.0,122.5419316621371
+3-4-4-1,measurement_phase_3fold,0,S3,random,117.0,111.25531948320015
+3-4-4-1,measurement_phase_3fold,0,S4,random,100.0,111.37404892365562
+3-4-4-1,measurement_phase_3fold,0,S5,random,129.0,132.00632773576433
+3-4-4-1,measurement_phase_3fold,0,S6,random,122.0,131.13140196224595
+3-4-4-1,measurement_phase_3fold,0,S7,random,103.0,116.98431096469801
+3-4-4-1,measurement_phase_3fold,0,S8,random,111.0,134.2272190913546
+3-4-4-1,measurement_phase_3fold,0,S9,random,105.0,127.34612667400096
+3-4-4-1,measurement_phase_3fold,0,S10,random,102.0,77.33382379641147
+3-4-4-1,measurement_phase_3fold,1,S1,before,87.0,137.87106574902901
+3-4-4-1,measurement_phase_3fold,1,S2,before,110.0,133.70678619563202
+3-4-4-1,measurement_phase_3fold,1,S3,before,120.0,114.95965583820836
+3-4-4-1,measurement_phase_3fold,1,S4,before,87.0,104.00813234977882
+3-4-4-1,measurement_phase_3fold,1,S5,before,132.0,132.57522892853268
+3-4-4-1,measurement_phase_3fold,1,S6,before,132.0,127.61483762558879
+3-4-4-1,measurement_phase_3fold,1,S7,before,118.0,124.84397366898924
+3-4-4-1,measurement_phase_3fold,1,S8,before,101.0,135.43419909215336
+3-4-4-1,measurement_phase_3fold,1,S9,before,110.0,124.40282050896523
+3-4-4-1,measurement_phase_3fold,1,S10,before,96.0,105.40595023755164
+3-4-4-1,measurement_phase_3fold,2,S1,after,143.0,126.54638781116746
+3-4-4-1,measurement_phase_3fold,2,S2,after,138.0,134.3986737562248
+3-4-4-1,measurement_phase_3fold,2,S3,after,117.0,112.61295906196011
+3-4-4-1,measurement_phase_3fold,2,S4,after,110.0,96.87652815142096
+3-4-4-1,measurement_phase_3fold,2,S5,after,132.0,131.59139290747456
+3-4-4-1,measurement_phase_3fold,2,S6,after,130.0,130.0022759591543
+3-4-4-1,measurement_phase_3fold,2,S7,after,118.0,106.26397107487533
+3-4-4-1,measurement_phase_3fold,2,S8,after,122.0,109.34290196111783
+3-4-4-1,measurement_phase_3fold,2,S9,after,117.0,107.45081317515786
+3-4-4-1,measurement_phase_3fold,2,S10,after,118.0,108.40650089203841
+3-5-4-1,discovery_fit,0,S1,before,87.0,87.0047606490492
+3-5-4-1,discovery_fit,0,S1,after,143.0,142.9965326035921
+3-5-4-1,discovery_fit,0,S1,random,131.0,130.9974580327301
+3-5-4-1,discovery_fit,0,S2,before,110.0,110.00852197673811
+3-5-4-1,discovery_fit,0,S2,after,138.0,137.9995166164111
+3-5-4-1,discovery_fit,0,S2,random,133.0,132.99480461707077
+3-5-4-1,discovery_fit,0,S3,before,120.0,119.99144714507338
+3-5-4-1,discovery_fit,0,S3,after,117.0,117.00036509012259
+3-5-4-1,discovery_fit,0,S3,random,117.0,116.99597704380459
+3-5-4-1,discovery_fit,0,S4,before,87.0,87.03247026538467
+3-5-4-1,discovery_fit,0,S4,after,110.0,109.97281863563772
+3-5-4-1,discovery_fit,0,S4,random,100.0,100.00549095851015
+3-5-4-1,discovery_fit,0,S5,before,132.0,132.1091068954241
+3-5-4-1,discovery_fit,0,S5,after,132.0,131.86799434129452
+3-5-4-1,discovery_fit,0,S5,random,129.0,129.02579126493768
+3-5-4-1,discovery_fit,0,S6,before,132.0,130.1699648978249
+3-5-4-1,discovery_fit,0,S6,after,130.0,130.1699648978249
+3-5-4-1,discovery_fit,0,S6,random,122.0,123.65927602372872
+3-5-4-1,discovery_fit,0,S7,before,118.0,117.99836444421186
+3-5-4-1,discovery_fit,0,S7,after,118.0,117.99371459286404
+3-5-4-1,discovery_fit,0,S7,random,103.0,103.00770151747108
+3-5-4-1,discovery_fit,0,S8,before,101.0,101.00424961924779
+3-5-4-1,discovery_fit,0,S8,after,122.0,121.99870996920298
+3-5-4-1,discovery_fit,0,S8,random,111.0,111.00804548023928
+3-5-4-1,discovery_fit,0,S9,before,110.0,110.0731937049777
+3-5-4-1,discovery_fit,0,S9,after,117.0,116.88341994939498
+3-5-4-1,discovery_fit,0,S9,random,105.0,105.05213405111195
+3-5-4-1,discovery_fit,0,S10,before,96.0,96.02262480205314
+3-5-4-1,discovery_fit,0,S10,after,118.0,117.99392437334816
+3-5-4-1,discovery_fit,0,S10,random,102.0,101.97559272323959
+3-5-4-1,participant_5fold,0,S4,before,87.0,104.27437768445196
+3-5-4-1,participant_5fold,0,S4,after,110.0,101.12526601178635
+3-5-4-1,participant_5fold,0,S4,random,100.0,115.5270595096994
+3-5-4-1,participant_5fold,0,S9,before,110.0,112.87469875514346
+3-5-4-1,participant_5fold,0,S9,after,117.0,113.19637294625106
+3-5-4-1,participant_5fold,0,S9,random,105.0,113.58815427994612
+3-5-4-1,participant_5fold,1,S3,before,120.0,100.74949169662625
+3-5-4-1,participant_5fold,1,S3,after,117.0,101.05494798396553
+3-5-4-1,participant_5fold,1,S3,random,117.0,101.68394913445303
+3-5-4-1,participant_5fold,1,S8,before,101.0,135.1547147347943
+3-5-4-1,participant_5fold,1,S8,after,122.0,141.73538218507446
+3-5-4-1,participant_5fold,1,S8,random,111.0,144.96368884058734
+3-5-4-1,participant_5fold,2,S2,before,110.0,124.12687407405922
+3-5-4-1,participant_5fold,2,S2,after,138.0,133.51330757464123
+3-5-4-1,participant_5fold,2,S2,random,133.0,128.67971883176494
+3-5-4-1,participant_5fold,2,S7,before,118.0,113.82257051191188
+3-5-4-1,participant_5fold,2,S7,after,118.0,124.37383538189368
+3-5-4-1,participant_5fold,2,S7,random,103.0,127.29490696378834
+3-5-4-1,participant_5fold,3,S6,before,132.0,117.6382175446995
+3-5-4-1,participant_5fold,3,S6,after,130.0,117.6382175446995
+3-5-4-1,participant_5fold,3,S6,random,122.0,117.70249779212462
+3-5-4-1,participant_5fold,3,S10,before,96.0,109.42172014788348
+3-5-4-1,participant_5fold,3,S10,after,118.0,86.78524754226235
+3-5-4-1,participant_5fold,3,S10,random,102.0,77.50773740771416
+3-5-4-1,participant_5fold,4,S1,before,87.0,118.58018792762493
+3-5-4-1,participant_5fold,4,S1,after,143.0,126.89126749559314
+3-5-4-1,participant_5fold,4,S1,random,131.0,125.35159871469551
+3-5-4-1,participant_5fold,4,S5,before,132.0,120.9240266684614
+3-5-4-1,participant_5fold,4,S5,after,132.0,120.79056442223505
+3-5-4-1,participant_5fold,4,S5,random,129.0,120.06806842400049
+3-5-4-1,measurement_phase_3fold,0,S1,random,131.0,117.5353209048339
+3-5-4-1,measurement_phase_3fold,0,S2,random,133.0,123.29324393017724
+3-5-4-1,measurement_phase_3fold,0,S3,random,117.0,117.01510885545284
+3-5-4-1,measurement_phase_3fold,0,S4,random,100.0,116.96941309249961
+3-5-4-1,measurement_phase_3fold,0,S5,random,129.0,131.75087716886597
+3-5-4-1,measurement_phase_3fold,0,S6,random,122.0,131.07214268639422
+3-5-4-1,measurement_phase_3fold,0,S7,random,103.0,118.7208059077431
+3-5-4-1,measurement_phase_3fold,0,S8,random,111.0,134.97969606755274
+3-5-4-1,measurement_phase_3fold,0,S9,random,105.0,127.06502052209898
+3-5-4-1,measurement_phase_3fold,0,S10,random,102.0,76.59566762938859
+3-5-4-1,measurement_phase_3fold,1,S1,before,87.0,132.44752547921854
+3-5-4-1,measurement_phase_3fold,1,S2,before,110.0,132.9364619294142
+3-5-4-1,measurement_phase_3fold,1,S3,before,120.0,112.87377702316974
+3-5-4-1,measurement_phase_3fold,1,S4,before,87.0,103.96185885874394
+3-5-4-1,measurement_phase_3fold,1,S5,before,132.0,132.52323120233945
+3-5-4-1,measurement_phase_3fold,1,S6,before,132.0,127.61443121806458
+3-5-4-1,measurement_phase_3fold,1,S7,before,118.0,121.91623779681728
+3-5-4-1,measurement_phase_3fold,1,S8,before,101.0,126.36479751063058
+3-5-4-1,measurement_phase_3fold,1,S9,before,110.0,124.56068331572438
+3-5-4-1,measurement_phase_3fold,1,S10,before,96.0,104.82701472015464
+3-5-4-1,measurement_phase_3fold,2,S1,after,143.0,127.88965386653912
+3-5-4-1,measurement_phase_3fold,2,S2,after,138.0,132.84947069789092
+3-5-4-1,measurement_phase_3fold,2,S3,after,117.0,111.9596253750461
+3-5-4-1,measurement_phase_3fold,2,S4,after,110.0,97.07179608294842
+3-5-4-1,measurement_phase_3fold,2,S5,after,132.0,131.6276815471315
+3-5-4-1,measurement_phase_3fold,2,S6,after,130.0,130.0091999937384
+3-5-4-1,measurement_phase_3fold,2,S7,after,118.0,108.36783980035503
+3-5-4-1,measurement_phase_3fold,2,S8,after,122.0,118.93558276159705
+3-5-4-1,measurement_phase_3fold,2,S9,after,117.0,107.66968767357166
+3-5-4-1,measurement_phase_3fold,2,S10,after,118.0,106.38256914347609
+3-5-5-1,discovery_fit,0,S1,before,87.0,87.00655969819911
+3-5-5-1,discovery_fit,0,S1,after,143.0,142.9956138855952
+3-5-5-1,discovery_fit,0,S1,random,131.0,130.9976514621447
+3-5-5-1,discovery_fit,0,S2,before,110.0,110.00761575659779
+3-5-5-1,discovery_fit,0,S2,after,138.0,137.99802232072605
+3-5-5-1,discovery_fit,0,S2,random,133.0,132.99340168982184
+3-5-5-1,discovery_fit,0,S3,before,120.0,119.9919082600215
+3-5-5-1,discovery_fit,0,S3,after,117.0,117.00087629768846
+3-5-5-1,discovery_fit,0,S3,random,117.0,116.99806275629369
+3-5-5-1,discovery_fit,0,S4,before,87.0,87.03298385175285
+3-5-5-1,discovery_fit,0,S4,after,110.0,109.97249721409509
+3-5-5-1,discovery_fit,0,S4,random,100.0,100.00559977734866
+3-5-5-1,discovery_fit,0,S5,before,132.0,132.07605101611603
+3-5-5-1,discovery_fit,0,S5,after,132.0,131.9058429662048
+3-5-5-1,discovery_fit,0,S5,random,129.0,129.0162076043278
+3-5-5-1,discovery_fit,0,S6,before,132.0,130.18568350020826
+3-5-5-1,discovery_fit,0,S6,after,130.0,130.18568350020826
+3-5-5-1,discovery_fit,0,S6,random,122.0,123.62663348026337
+3-5-5-1,discovery_fit,0,S7,before,118.0,117.99925754268757
+3-5-5-1,discovery_fit,0,S7,after,118.0,117.99504908436093
+3-5-5-1,discovery_fit,0,S7,random,103.0,103.01113340263387
+3-5-5-1,discovery_fit,0,S8,before,101.0,101.00752670733891
+3-5-5-1,discovery_fit,0,S8,after,122.0,122.00008990804795
+3-5-5-1,discovery_fit,0,S8,random,111.0,111.00527723479665
+3-5-5-1,discovery_fit,0,S9,before,110.0,110.0740049143664
+3-5-5-1,discovery_fit,0,S9,after,117.0,116.88060350045632
+3-5-5-1,discovery_fit,0,S9,random,105.0,105.05550714073019
+3-5-5-1,discovery_fit,0,S10,before,96.0,96.02228765061169
+3-5-5-1,discovery_fit,0,S10,after,118.0,117.99521774317108
+3-5-5-1,discovery_fit,0,S10,random,102.0,101.97581998531422
+3-5-5-1,participant_5fold,0,S4,before,87.0,104.60506152796269
+3-5-5-1,participant_5fold,0,S4,after,110.0,101.25193621394229
+3-5-5-1,participant_5fold,0,S4,random,100.0,114.9340776014181
+3-5-5-1,participant_5fold,0,S9,before,110.0,114.73105022861851
+3-5-5-1,participant_5fold,0,S9,after,117.0,115.23931946804338
+3-5-5-1,participant_5fold,0,S9,random,105.0,115.81004036560205
+3-5-5-1,participant_5fold,1,S3,before,120.0,107.82660206744822
+3-5-5-1,participant_5fold,1,S3,after,117.0,108.47054631010539
+3-5-5-1,participant_5fold,1,S3,random,117.0,109.57528931324804
+3-5-5-1,participant_5fold,1,S8,before,101.0,130.67845035687085
+3-5-5-1,participant_5fold,1,S8,after,122.0,133.56525086826457
+3-5-5-1,participant_5fold,1,S8,random,111.0,135.3107428613731
+3-5-5-1,participant_5fold,2,S2,before,110.0,125.88655553708048
+3-5-5-1,participant_5fold,2,S2,after,138.0,134.43473218518514
+3-5-5-1,participant_5fold,2,S2,random,133.0,130.16723774649662
+3-5-5-1,participant_5fold,2,S7,before,118.0,127.97688113090238
+3-5-5-1,participant_5fold,2,S7,after,118.0,134.0980724219682
+3-5-5-1,participant_5fold,2,S7,random,103.0,136.22826383859993
+3-5-5-1,participant_5fold,3,S6,before,132.0,117.43471776852851
+3-5-5-1,participant_5fold,3,S6,after,130.0,117.43471776852851
+3-5-5-1,participant_5fold,3,S6,random,122.0,117.51747036646603
+3-5-5-1,participant_5fold,3,S10,before,96.0,109.40543944261249
+3-5-5-1,participant_5fold,3,S10,after,118.0,77.64942925065762
+3-5-5-1,participant_5fold,3,S10,random,102.0,75.82311000292114
+3-5-5-1,participant_5fold,4,S1,before,87.0,119.88895046670913
+3-5-5-1,participant_5fold,4,S1,after,143.0,121.83306228217303
+3-5-5-1,participant_5fold,4,S1,random,131.0,122.1937369171379
+3-5-5-1,participant_5fold,4,S5,before,132.0,119.26710922179332
+3-5-5-1,participant_5fold,4,S5,after,132.0,119.0705902343619
+3-5-5-1,participant_5fold,4,S5,random,129.0,118.00741292398763
+3-5-5-1,measurement_phase_3fold,0,S1,random,131.0,115.88690718228287
+3-5-5-1,measurement_phase_3fold,0,S2,random,133.0,123.18735812187887
+3-5-5-1,measurement_phase_3fold,0,S3,random,117.0,119.68932974893431
+3-5-5-1,measurement_phase_3fold,0,S4,random,100.0,120.1147878659962
+3-5-5-1,measurement_phase_3fold,0,S5,random,129.0,132.32626333139098
+3-5-5-1,measurement_phase_3fold,0,S6,random,122.0,131.2608295085994
+3-5-5-1,measurement_phase_3fold,0,S7,random,103.0,120.97960626544334
+3-5-5-1,measurement_phase_3fold,0,S8,random,111.0,145.59908207586193
+3-5-5-1,measurement_phase_3fold,0,S9,random,105.0,126.97758923836476
+3-5-5-1,measurement_phase_3fold,0,S10,random,102.0,76.58133926524762
+3-5-5-1,measurement_phase_3fold,1,S1,before,87.0,134.83759208565064
+3-5-5-1,measurement_phase_3fold,1,S2,before,110.0,131.82845198374238
+3-5-5-1,measurement_phase_3fold,1,S3,before,120.0,115.32394086692273
+3-5-5-1,measurement_phase_3fold,1,S4,before,87.0,104.38081487159823
+3-5-5-1,measurement_phase_3fold,1,S5,before,132.0,132.60836137105707
+3-5-5-1,measurement_phase_3fold,1,S6,before,132.0,127.60702159793757
+3-5-5-1,measurement_phase_3fold,1,S7,before,118.0,127.40310699412493
+3-5-5-1,measurement_phase_3fold,1,S8,before,101.0,127.81499052125308
+3-5-5-1,measurement_phase_3fold,1,S9,before,110.0,124.17482298751142
+3-5-5-1,measurement_phase_3fold,1,S10,before,96.0,105.08768672092063
+3-5-5-1,measurement_phase_3fold,2,S1,after,143.0,124.14820141981541
+3-5-5-1,measurement_phase_3fold,2,S2,after,138.0,131.37425978727182
+3-5-5-1,measurement_phase_3fold,2,S3,after,117.0,112.02505862527201
+3-5-5-1,measurement_phase_3fold,2,S4,after,110.0,96.86054813263704
+3-5-5-1,measurement_phase_3fold,2,S5,after,132.0,131.6213359719698
+3-5-5-1,measurement_phase_3fold,2,S6,after,130.0,130.01042154404809
+3-5-5-1,measurement_phase_3fold,2,S7,after,118.0,108.2259321391048
+3-5-5-1,measurement_phase_3fold,2,S8,after,122.0,115.27763876314287
+3-5-5-1,measurement_phase_3fold,2,S9,after,117.0,107.49724322904106
+3-5-5-1,measurement_phase_3fold,2,S10,after,118.0,103.3533649562953
+3-4-5-1,discovery_fit,0,S1,before,87.0,87.0049367742462
+3-4-5-1,discovery_fit,0,S1,after,143.0,142.9968838154456
+3-4-5-1,discovery_fit,0,S1,random,131.0,130.99934706509347
+3-4-5-1,discovery_fit,0,S2,before,110.0,110.00844179710137
+3-4-5-1,discovery_fit,0,S2,after,138.0,137.99900635297033
+3-4-5-1,discovery_fit,0,S2,random,133.0,132.9942224121644
+3-4-5-1,discovery_fit,0,S3,before,120.0,119.99217248311619
+3-4-5-1,discovery_fit,0,S3,after,117.0,117.00118867651346
+3-4-5-1,discovery_fit,0,S3,random,117.0,116.99496592023955
+3-4-5-1,discovery_fit,0,S4,before,87.0,87.03187922654698
+3-4-5-1,discovery_fit,0,S4,after,110.0,109.97242687022143
+3-4-5-1,discovery_fit,0,S4,random,100.0,100.00438964919083
+3-4-5-1,discovery_fit,0,S5,before,132.0,132.08097442279566
+3-4-5-1,discovery_fit,0,S5,after,132.0,131.89772608960266
+3-4-5-1,discovery_fit,0,S5,random,129.0,129.02110497443263
+3-4-5-1,discovery_fit,0,S6,before,132.0,130.17212853557814
+3-4-5-1,discovery_fit,0,S6,after,130.0,130.17212853557814
+3-4-5-1,discovery_fit,0,S6,random,122.0,123.65518545788039
+3-4-5-1,discovery_fit,0,S7,before,118.0,117.99673151926353
+3-4-5-1,discovery_fit,0,S7,after,118.0,117.99345971971648
+3-4-5-1,discovery_fit,0,S7,random,103.0,103.0094950617085
+3-4-5-1,discovery_fit,0,S8,before,101.0,101.00704898940748
+3-4-5-1,discovery_fit,0,S8,after,122.0,122.00184107425378
+3-4-5-1,discovery_fit,0,S8,random,111.0,111.00963665964622
+3-4-5-1,discovery_fit,0,S9,before,110.0,110.07627650657618
+3-4-5-1,discovery_fit,0,S9,after,117.0,116.87897553581067
+3-4-5-1,discovery_fit,0,S9,random,105.0,105.05562733107644
+3-4-5-1,discovery_fit,0,S10,before,96.0,96.02371852528405
+3-4-5-1,discovery_fit,0,S10,after,118.0,117.99661552134552
+3-4-5-1,discovery_fit,0,S10,random,102.0,101.97729036642347
+3-4-5-1,participant_5fold,0,S4,before,87.0,104.24233275625791
+3-4-5-1,participant_5fold,0,S4,after,110.0,100.97115884241674
+3-4-5-1,participant_5fold,0,S4,random,100.0,119.03324633824597
+3-4-5-1,participant_5fold,0,S9,before,110.0,114.17620002140785
+3-4-5-1,participant_5fold,0,S9,after,117.0,114.50942080429225
+3-4-5-1,participant_5fold,0,S9,random,105.0,114.87743744433698
+3-4-5-1,participant_5fold,1,S3,before,120.0,98.60869343083871
+3-4-5-1,participant_5fold,1,S3,after,117.0,98.48671366817078
+3-4-5-1,participant_5fold,1,S3,random,117.0,97.98019026149134
+3-4-5-1,participant_5fold,1,S8,before,101.0,131.0624359688345
+3-4-5-1,participant_5fold,1,S8,after,122.0,131.7082077742811
+3-4-5-1,participant_5fold,1,S8,random,111.0,131.2836164441516
+3-4-5-1,participant_5fold,2,S2,before,110.0,125.43145776981743
+3-4-5-1,participant_5fold,2,S2,after,138.0,130.69664955260885
+3-4-5-1,participant_5fold,2,S2,random,133.0,128.76797646655237
+3-4-5-1,participant_5fold,2,S7,before,118.0,126.24644414611159
+3-4-5-1,participant_5fold,2,S7,after,118.0,128.00012754656174
+3-4-5-1,participant_5fold,2,S7,random,103.0,128.21381811926958
+3-4-5-1,participant_5fold,3,S6,before,132.0,121.48544796909665
+3-4-5-1,participant_5fold,3,S6,after,130.0,121.48544796909665
+3-4-5-1,participant_5fold,3,S6,random,122.0,121.60744028938512
+3-4-5-1,participant_5fold,3,S10,before,96.0,110.14302700245594
+3-4-5-1,participant_5fold,3,S10,after,118.0,84.94076050409313
+3-4-5-1,participant_5fold,3,S10,random,102.0,77.69847305760653
+3-4-5-1,participant_5fold,4,S1,before,87.0,113.08245522170029
+3-4-5-1,participant_5fold,4,S1,after,143.0,121.90870099472343
+3-4-5-1,participant_5fold,4,S1,random,131.0,124.06807883807109
+3-4-5-1,participant_5fold,4,S5,before,132.0,123.88015022980568
+3-4-5-1,participant_5fold,4,S5,after,132.0,123.59476640090213
+3-4-5-1,participant_5fold,4,S5,random,129.0,121.91969889609213
+3-4-5-1,measurement_phase_3fold,0,S1,random,131.0,123.56045120852268
+3-4-5-1,measurement_phase_3fold,0,S2,random,133.0,120.06003151902266
+3-4-5-1,measurement_phase_3fold,0,S3,random,117.0,127.12271992431147
+3-4-5-1,measurement_phase_3fold,0,S4,random,100.0,126.78855773363502
+3-4-5-1,measurement_phase_3fold,0,S5,random,129.0,131.95262249976957
+3-4-5-1,measurement_phase_3fold,0,S6,random,122.0,131.08674476451978
+3-4-5-1,measurement_phase_3fold,0,S7,random,103.0,121.78697829711214
+3-4-5-1,measurement_phase_3fold,0,S8,random,111.0,129.72346753072713
+3-4-5-1,measurement_phase_3fold,0,S9,random,105.0,127.32052625233506
+3-4-5-1,measurement_phase_3fold,0,S10,random,102.0,76.53860282951108
+3-4-5-1,measurement_phase_3fold,1,S1,before,87.0,146.606711610915
+3-4-5-1,measurement_phase_3fold,1,S2,before,110.0,133.27456138234788
+3-4-5-1,measurement_phase_3fold,1,S3,before,120.0,114.31924768270983
+3-4-5-1,measurement_phase_3fold,1,S4,before,87.0,103.62678870337152
+3-4-5-1,measurement_phase_3fold,1,S5,before,132.0,132.5290223742693
+3-4-5-1,measurement_phase_3fold,1,S6,before,132.0,127.61993229077444
+3-4-5-1,measurement_phase_3fold,1,S7,before,118.0,122.72465872033365
+3-4-5-1,measurement_phase_3fold,1,S8,before,101.0,134.06055371936841
+3-4-5-1,measurement_phase_3fold,1,S9,before,110.0,124.51352890454713
+3-4-5-1,measurement_phase_3fold,1,S10,before,96.0,105.62499881537461
+3-4-5-1,measurement_phase_3fold,2,S1,after,143.0,127.05599817560646
+3-4-5-1,measurement_phase_3fold,2,S2,after,138.0,132.4206156599174
+3-4-5-1,measurement_phase_3fold,2,S3,after,117.0,110.9956468500377
+3-4-5-1,measurement_phase_3fold,2,S4,after,110.0,96.83895979668856
+3-4-5-1,measurement_phase_3fold,2,S5,after,132.0,131.64120226346247
+3-4-5-1,measurement_phase_3fold,2,S6,after,130.0,129.99625330479418
+3-4-5-1,measurement_phase_3fold,2,S7,after,118.0,107.96095594183642
+3-4-5-1,measurement_phase_3fold,2,S8,after,122.0,120.56969507148813
+3-4-5-1,measurement_phase_3fold,2,S9,after,117.0,107.84944074567301
+3-4-5-1,measurement_phase_3fold,2,S10,after,118.0,103.19689078453263
+3-2-2-1,discovery_fit,0,S1,before,87.0,87.00799208486507
+3-2-2-1,discovery_fit,0,S1,after,143.0,142.9956929771456
+3-2-2-1,discovery_fit,0,S1,random,131.0,130.9984605188641
+3-2-2-1,discovery_fit,0,S2,before,110.0,110.00814980214572
+3-2-2-1,discovery_fit,0,S2,after,138.0,137.99798316316026
+3-2-2-1,discovery_fit,0,S2,random,133.0,132.99332294885264
+3-2-2-1,discovery_fit,0,S3,before,120.0,119.991402061661
+3-2-2-1,discovery_fit,0,S3,after,117.0,117.00006331129259
+3-2-2-1,discovery_fit,0,S3,random,117.0,116.99575499354788
+3-2-2-1,discovery_fit,0,S4,before,87.0,87.03211458097246
+3-2-2-1,discovery_fit,0,S4,after,110.0,109.97255493509573
+3-2-2-1,discovery_fit,0,S4,random,100.0,100.00576976771332
+3-2-2-1,discovery_fit,0,S5,before,132.0,132.0704407881421
+3-2-2-1,discovery_fit,0,S5,after,132.0,131.91069649825053
+3-2-2-1,discovery_fit,0,S5,random,129.0,129.01644445058264
+3-2-2-1,discovery_fit,0,S6,before,132.0,130.18345945400137
+3-2-2-1,discovery_fit,0,S6,after,130.0,130.18345945400137
+3-2-2-1,discovery_fit,0,S6,random,122.0,123.63052868043489
+3-2-2-1,discovery_fit,0,S7,before,118.0,117.99857338050579
+3-2-2-1,discovery_fit,0,S7,after,118.0,117.99428112823963
+3-2-2-1,discovery_fit,0,S7,random,103.0,103.01149049786021
+3-2-2-1,discovery_fit,0,S8,before,101.0,101.00734781696966
+3-2-2-1,discovery_fit,0,S8,after,122.0,121.99953378605694
+3-2-2-1,discovery_fit,0,S8,random,111.0,111.00608302059763
+3-2-2-1,discovery_fit,0,S9,before,110.0,110.07511645499366
+3-2-2-1,discovery_fit,0,S9,after,117.0,116.88057033129049
+3-2-2-1,discovery_fit,0,S9,random,105.0,105.05459632380106
+3-2-2-1,discovery_fit,0,S10,before,96.0,96.02331112580598
+3-2-2-1,discovery_fit,0,S10,after,118.0,117.99587348348857
+3-2-2-1,discovery_fit,0,S10,random,102.0,101.97684105068868
+3-2-2-1,participant_5fold,0,S4,before,87.0,103.41752425898746
+3-2-2-1,participant_5fold,0,S4,after,110.0,100.09148280414719
+3-2-2-1,participant_5fold,0,S4,random,100.0,112.02102305005273
+3-2-2-1,participant_5fold,0,S9,before,110.0,105.43716148396099
+3-2-2-1,participant_5fold,0,S9,after,117.0,105.90632692557308
+3-2-2-1,participant_5fold,0,S9,random,105.0,106.60098986039198
+3-2-2-1,participant_5fold,1,S3,before,120.0,104.20636609977967
+3-2-2-1,participant_5fold,1,S3,after,117.0,105.84456515529313
+3-2-2-1,participant_5fold,1,S3,random,117.0,105.43369513987842
+3-2-2-1,participant_5fold,1,S8,before,101.0,133.3478705974205
+3-2-2-1,participant_5fold,1,S8,after,122.0,133.73686615174313
+3-2-2-1,participant_5fold,1,S8,random,111.0,133.8470267226568
+3-2-2-1,participant_5fold,2,S2,before,110.0,128.84352221436944
+3-2-2-1,participant_5fold,2,S2,after,138.0,135.4101487299895
+3-2-2-1,participant_5fold,2,S2,random,133.0,131.7531413042774
+3-2-2-1,participant_5fold,2,S7,before,118.0,132.33440936754783
+3-2-2-1,participant_5fold,2,S7,after,118.0,136.96393836514937
+3-2-2-1,participant_5fold,2,S7,random,103.0,138.72543933146022
+3-2-2-1,participant_5fold,3,S6,before,132.0,117.71306848947589
+3-2-2-1,participant_5fold,3,S6,after,130.0,117.71306848947589
+3-2-2-1,participant_5fold,3,S6,random,122.0,117.74173877220005
+3-2-2-1,participant_5fold,3,S10,before,96.0,109.55197660820403
+3-2-2-1,participant_5fold,3,S10,after,118.0,82.6465671015267
+3-2-2-1,participant_5fold,3,S10,random,102.0,76.92894134399977
+3-2-2-1,participant_5fold,4,S1,before,87.0,120.07699135825878
+3-2-2-1,participant_5fold,4,S1,after,143.0,120.73417374296818
+3-2-2-1,participant_5fold,4,S1,random,131.0,121.34199218426805
+3-2-2-1,participant_5fold,4,S5,before,132.0,124.59939445185498
+3-2-2-1,participant_5fold,4,S5,after,132.0,124.37019305576464
+3-2-2-1,participant_5fold,4,S5,random,129.0,123.01380598327614
+3-2-2-1,measurement_phase_3fold,0,S1,random,131.0,113.21586285585819
+3-2-2-1,measurement_phase_3fold,0,S2,random,133.0,121.76625319698803
+3-2-2-1,measurement_phase_3fold,0,S3,random,117.0,115.67507116357514
+3-2-2-1,measurement_phase_3fold,0,S4,random,100.0,118.88233089920739
+3-2-2-1,measurement_phase_3fold,0,S5,random,129.0,132.22416462022548
+3-2-2-1,measurement_phase_3fold,0,S6,random,122.0,131.31971547196227
+3-2-2-1,measurement_phase_3fold,0,S7,random,103.0,120.37126169250703
+3-2-2-1,measurement_phase_3fold,0,S8,random,111.0,145.8767337427202
+3-2-2-1,measurement_phase_3fold,0,S9,random,105.0,127.05801114948511
+3-2-2-1,measurement_phase_3fold,0,S10,random,102.0,76.47877037546918
+3-2-2-1,measurement_phase_3fold,1,S1,before,87.0,142.00396204673729
+3-2-2-1,measurement_phase_3fold,1,S2,before,110.0,132.92507772959644
+3-2-2-1,measurement_phase_3fold,1,S3,before,120.0,114.6739369640845
+3-2-2-1,measurement_phase_3fold,1,S4,before,87.0,104.02561523691352
+3-2-2-1,measurement_phase_3fold,1,S5,before,132.0,132.54725251203251
+3-2-2-1,measurement_phase_3fold,1,S6,before,132.0,127.6095111910268
+3-2-2-1,measurement_phase_3fold,1,S7,before,118.0,117.78199109964403
+3-2-2-1,measurement_phase_3fold,1,S8,before,101.0,132.65690977846808
+3-2-2-1,measurement_phase_3fold,1,S9,before,110.0,124.33494400816701
+3-2-2-1,measurement_phase_3fold,1,S10,before,96.0,105.39969006975898
+3-2-2-1,measurement_phase_3fold,2,S1,after,143.0,124.23008244062582
+3-2-2-1,measurement_phase_3fold,2,S2,after,138.0,129.90759930841605
+3-2-2-1,measurement_phase_3fold,2,S3,after,117.0,110.31252654871983
+3-2-2-1,measurement_phase_3fold,2,S4,after,110.0,96.70826840286239
+3-2-2-1,measurement_phase_3fold,2,S5,after,132.0,131.61812745603277
+3-2-2-1,measurement_phase_3fold,2,S6,after,130.0,130.0173805201394
+3-2-2-1,measurement_phase_3fold,2,S7,after,118.0,108.1824005792632
+3-2-2-1,measurement_phase_3fold,2,S8,after,122.0,121.47542926291597
+3-2-2-1,measurement_phase_3fold,2,S9,after,117.0,107.67989040434269
+3-2-2-1,measurement_phase_3fold,2,S10,after,118.0,108.51086374283976
+3-3-2-1,discovery_fit,0,S1,before,87.0,87.00072014572672
+3-3-2-1,discovery_fit,0,S1,after,143.0,142.99418033325222
+3-3-2-1,discovery_fit,0,S1,random,131.0,130.99633915149323
+3-3-2-1,discovery_fit,0,S2,before,110.0,110.00540962339593
+3-3-2-1,discovery_fit,0,S2,after,138.0,137.99702010634275
+3-3-2-1,discovery_fit,0,S2,random,133.0,132.99444805875348
+3-3-2-1,discovery_fit,0,S3,before,120.0,119.9905413239628
+3-3-2-1,discovery_fit,0,S3,after,117.0,116.99952117734632
+3-3-2-1,discovery_fit,0,S3,random,117.0,116.99699249540126
+3-3-2-1,discovery_fit,0,S4,before,87.0,87.03268408630936
+3-3-2-1,discovery_fit,0,S4,after,110.0,109.9726452923381
+3-3-2-1,discovery_fit,0,S4,random,100.0,100.00655637628836
+3-3-2-1,discovery_fit,0,S5,before,132.0,132.09238332853988
+3-3-2-1,discovery_fit,0,S5,after,132.0,131.88751966581646
+3-3-2-1,discovery_fit,0,S5,random,129.0,129.02045358283618
+3-3-2-1,discovery_fit,0,S6,before,132.0,130.17809929737075
+3-3-2-1,discovery_fit,0,S6,after,130.0,130.17809929737075
+3-3-2-1,discovery_fit,0,S6,random,122.0,123.64335800492677
+3-3-2-1,discovery_fit,0,S7,before,118.0,117.99771662144421
+3-3-2-1,discovery_fit,0,S7,after,118.0,117.9946452167986
+3-3-2-1,discovery_fit,0,S7,random,103.0,103.00921407574303
+3-3-2-1,discovery_fit,0,S8,before,101.0,101.00011325969783
+3-3-2-1,discovery_fit,0,S8,after,122.0,122.00107878978207
+3-3-2-1,discovery_fit,0,S8,random,111.0,111.00731973670287
+3-3-2-1,discovery_fit,0,S9,before,110.0,110.07213351402385
+3-3-2-1,discovery_fit,0,S9,after,117.0,116.88385573431164
+3-3-2-1,discovery_fit,0,S9,random,105.0,105.0523919741563
+3-3-2-1,discovery_fit,0,S10,before,96.0,96.02211701484511
+3-3-2-1,discovery_fit,0,S10,after,118.0,117.99528633569449
+3-3-2-1,discovery_fit,0,S10,random,102.0,101.97577539928827
+3-3-2-1,participant_5fold,0,S4,before,87.0,104.09700247865763
+3-3-2-1,participant_5fold,0,S4,after,110.0,100.8236564903052
+3-3-2-1,participant_5fold,0,S4,random,100.0,116.55614028682383
+3-3-2-1,participant_5fold,0,S9,before,110.0,114.47013611926349
+3-3-2-1,participant_5fold,0,S9,after,117.0,114.90451989739901
+3-3-2-1,participant_5fold,0,S9,random,105.0,115.4158023989401
+3-3-2-1,participant_5fold,1,S3,before,120.0,100.63303144422599
+3-3-2-1,participant_5fold,1,S3,after,117.0,102.23284668404598
+3-3-2-1,participant_5fold,1,S3,random,117.0,103.41418451218283
+3-3-2-1,participant_5fold,1,S8,before,101.0,127.60884246629578
+3-3-2-1,participant_5fold,1,S8,after,122.0,131.40795985010467
+3-3-2-1,participant_5fold,1,S8,random,111.0,132.2589974539616
+3-3-2-1,participant_5fold,2,S2,before,110.0,121.75176044045723
+3-3-2-1,participant_5fold,2,S2,after,138.0,122.5036395403903
+3-3-2-1,participant_5fold,2,S2,random,133.0,122.62787161386073
+3-3-2-1,participant_5fold,2,S7,before,118.0,125.9463733159128
+3-3-2-1,participant_5fold,2,S7,after,118.0,127.21428560865193
+3-3-2-1,participant_5fold,2,S7,random,103.0,127.16952920565808
+3-3-2-1,participant_5fold,3,S6,before,132.0,128.64658307835106
+3-3-2-1,participant_5fold,3,S6,after,130.0,128.64658307835106
+3-3-2-1,participant_5fold,3,S6,random,122.0,128.71307716488212
+3-3-2-1,participant_5fold,3,S10,before,96.0,111.22952461741716
+3-3-2-1,participant_5fold,3,S10,after,118.0,95.89177016717343
+3-3-2-1,participant_5fold,3,S10,random,102.0,80.20096043218508
+3-3-2-1,participant_5fold,4,S1,before,87.0,120.87636186258017
+3-3-2-1,participant_5fold,4,S1,after,143.0,120.45485458818177
+3-3-2-1,participant_5fold,4,S1,random,131.0,121.79500018914199
+3-3-2-1,participant_5fold,4,S5,before,132.0,125.88607116734025
+3-3-2-1,participant_5fold,4,S5,after,132.0,125.62799454757528
+3-3-2-1,participant_5fold,4,S5,random,129.0,124.21157894234989
+3-3-2-1,measurement_phase_3fold,0,S1,random,131.0,106.04037464279726
+3-3-2-1,measurement_phase_3fold,0,S2,random,133.0,127.19500881657589
+3-3-2-1,measurement_phase_3fold,0,S3,random,117.0,120.67996601242966
+3-3-2-1,measurement_phase_3fold,0,S4,random,100.0,121.88517287503895
+3-3-2-1,measurement_phase_3fold,0,S5,random,129.0,132.1181430680448
+3-3-2-1,measurement_phase_3fold,0,S6,random,122.0,131.28370954351172
+3-3-2-1,measurement_phase_3fold,0,S7,random,103.0,119.51655477184677
+3-3-2-1,measurement_phase_3fold,0,S8,random,111.0,147.47988243160887
+3-3-2-1,measurement_phase_3fold,0,S9,random,105.0,126.99538433226418
+3-3-2-1,measurement_phase_3fold,0,S10,random,102.0,76.45947166732091
+3-3-2-1,measurement_phase_3fold,1,S1,before,87.0,135.5239521391381
+3-3-2-1,measurement_phase_3fold,1,S2,before,110.0,133.46871298816947
+3-3-2-1,measurement_phase_3fold,1,S3,before,120.0,113.7524148492141
+3-3-2-1,measurement_phase_3fold,1,S4,before,87.0,103.99484530731633
+3-3-2-1,measurement_phase_3fold,1,S5,before,132.0,132.51999212112742
+3-3-2-1,measurement_phase_3fold,1,S6,before,132.0,127.60433510143547
+3-3-2-1,measurement_phase_3fold,1,S7,before,118.0,125.79300594176549
+3-3-2-1,measurement_phase_3fold,1,S8,before,101.0,129.9356833832759
+3-3-2-1,measurement_phase_3fold,1,S9,before,110.0,124.40235677045683
+3-3-2-1,measurement_phase_3fold,1,S10,before,96.0,105.21106321348799
+3-3-2-1,measurement_phase_3fold,2,S1,after,143.0,127.39708872802053
+3-3-2-1,measurement_phase_3fold,2,S2,after,138.0,131.27349056434826
+3-3-2-1,measurement_phase_3fold,2,S3,after,117.0,116.08716490488887
+3-3-2-1,measurement_phase_3fold,2,S4,after,110.0,97.69819113133886
+3-3-2-1,measurement_phase_3fold,2,S5,after,132.0,131.60406027885097
+3-3-2-1,measurement_phase_3fold,2,S6,after,130.0,130.00238121440438
+3-3-2-1,measurement_phase_3fold,2,S7,after,118.0,107.87477756107559
+3-3-2-1,measurement_phase_3fold,2,S8,after,122.0,123.55231549017756
+3-3-2-1,measurement_phase_3fold,2,S9,after,117.0,107.37994819131278
+3-3-2-1,measurement_phase_3fold,2,S10,after,118.0,106.48950170409407
+Linear Regression,discovery_fit,0,S1,before,87.0,87.00722164937847
+Linear Regression,discovery_fit,0,S1,after,143.0,142.99399484411586
+Linear Regression,discovery_fit,0,S1,random,131.0,130.99659351777441
+Linear Regression,discovery_fit,0,S2,before,110.0,110.00753044061668
+Linear Regression,discovery_fit,0,S2,after,138.0,137.99609902600528
+Linear Regression,discovery_fit,0,S2,random,133.0,132.99231042738396
+Linear Regression,discovery_fit,0,S3,before,120.0,119.99113763198856
+Linear Regression,discovery_fit,0,S3,after,117.0,117.00110703162717
+Linear Regression,discovery_fit,0,S3,random,117.0,116.99921716249843
+Linear Regression,discovery_fit,0,S4,before,87.0,87.0322262749626
+Linear Regression,discovery_fit,0,S4,after,110.0,109.97246681224556
+Linear Regression,discovery_fit,0,S4,random,100.0,100.00901073604003
+Linear Regression,discovery_fit,0,S5,before,132.0,132.07151965100383
+Linear Regression,discovery_fit,0,S5,after,132.0,131.90962099829974
+Linear Regression,discovery_fit,0,S5,random,129.0,129.0164853294895
+Linear Regression,discovery_fit,0,S6,before,132.0,130.18095276041853
+Linear Regression,discovery_fit,0,S6,after,130.0,130.18095276041853
+Linear Regression,discovery_fit,0,S6,random,122.0,123.63570466921087
+Linear Regression,discovery_fit,0,S7,before,118.0,118.00024403523057
+Linear Regression,discovery_fit,0,S7,after,118.0,117.99485461555918
+Linear Regression,discovery_fit,0,S7,random,103.0,103.01120831448664
+Linear Regression,discovery_fit,0,S8,before,101.0,101.00670490124037
+Linear Regression,discovery_fit,0,S8,after,122.0,122.00030585895583
+Linear Regression,discovery_fit,0,S8,random,111.0,111.00822884570452
+Linear Regression,discovery_fit,0,S9,before,110.0,110.07388422787264
+Linear Regression,discovery_fit,0,S9,after,117.0,116.88277498720552
+Linear Regression,discovery_fit,0,S9,random,105.0,105.0524317057649
+Linear Regression,discovery_fit,0,S10,before,96.0,96.02379092608894
+Linear Regression,discovery_fit,0,S10,after,118.0,117.99391044051615
+Linear Regression,discovery_fit,0,S10,random,102.0,101.9762938726349
+Linear Regression,participant_5fold,0,S4,before,87.0,104.30642437549766
+Linear Regression,participant_5fold,0,S4,after,110.0,100.98280476411546
+Linear Regression,participant_5fold,0,S4,random,100.0,120.89313128607417
+Linear Regression,participant_5fold,0,S9,before,110.0,114.24279960860656
+Linear Regression,participant_5fold,0,S9,after,117.0,114.25713316764922
+Linear Regression,participant_5fold,0,S9,random,105.0,114.11193142036183
+Linear Regression,participant_5fold,1,S3,before,120.0,101.87842882602143
+Linear Regression,participant_5fold,1,S3,after,117.0,107.79131963603324
+Linear Regression,participant_5fold,1,S3,random,117.0,116.45811684431912
+Linear Regression,participant_5fold,1,S8,before,101.0,124.48938239261105
+Linear Regression,participant_5fold,1,S8,after,122.0,130.8333012175435
+Linear Regression,participant_5fold,1,S8,random,111.0,139.43697703994516
+Linear Regression,participant_5fold,2,S2,before,110.0,116.00077246745381
+Linear Regression,participant_5fold,2,S2,after,138.0,122.05737895011364
+Linear Regression,participant_5fold,2,S2,random,133.0,118.90699012903369
+Linear Regression,participant_5fold,2,S7,before,118.0,123.74881207396322
+Linear Regression,participant_5fold,2,S7,after,118.0,127.51124075120264
+Linear Regression,participant_5fold,2,S7,random,103.0,129.4455291960824
+Linear Regression,participant_5fold,3,S6,before,132.0,118.77878385523582
+Linear Regression,participant_5fold,3,S6,after,130.0,118.77878385523582
+Linear Regression,participant_5fold,3,S6,random,122.0,118.86922068160575
+Linear Regression,participant_5fold,3,S10,before,96.0,110.45066080291522
+Linear Regression,participant_5fold,3,S10,after,118.0,84.44876220740537
+Linear Regression,participant_5fold,3,S10,random,102.0,77.79566757908867
+Linear Regression,participant_5fold,4,S1,before,87.0,114.11023321091305
+Linear Regression,participant_5fold,4,S1,after,143.0,122.11759051015655
+Linear Regression,participant_5fold,4,S1,random,131.0,121.05194055950501
+Linear Regression,participant_5fold,4,S5,before,132.0,118.03259532084124
+Linear Regression,participant_5fold,4,S5,after,132.0,117.89092614117018
+Linear Regression,participant_5fold,4,S5,random,129.0,117.12873558807179
+Linear Regression,measurement_phase_3fold,0,S1,random,131.0,123.06990407428079
+Linear Regression,measurement_phase_3fold,0,S2,random,133.0,119.74722107879725
+Linear Regression,measurement_phase_3fold,0,S3,random,117.0,138.4674146016795
+Linear Regression,measurement_phase_3fold,0,S4,random,100.0,137.4659523681616
+Linear Regression,measurement_phase_3fold,0,S5,random,129.0,132.33167981028853
+Linear Regression,measurement_phase_3fold,0,S6,random,122.0,131.15181885538615
+Linear Regression,measurement_phase_3fold,0,S7,random,103.0,123.88742283942656
+Linear Regression,measurement_phase_3fold,0,S8,random,111.0,139.4572401331517
+Linear Regression,measurement_phase_3fold,0,S9,random,105.0,127.08409442755327
+Linear Regression,measurement_phase_3fold,0,S10,random,102.0,76.52437158107588
+Linear Regression,measurement_phase_3fold,1,S1,before,87.0,130.714398390716
+Linear Regression,measurement_phase_3fold,1,S2,before,110.0,129.90291994912593
+Linear Regression,measurement_phase_3fold,1,S3,before,120.0,112.47830542679816
+Linear Regression,measurement_phase_3fold,1,S4,before,87.0,103.35308901580504
+Linear Regression,measurement_phase_3fold,1,S5,before,132.0,132.46471571131946
+Linear Regression,measurement_phase_3fold,1,S6,before,132.0,127.60415153584049
+Linear Regression,measurement_phase_3fold,1,S7,before,118.0,122.81585525646443
+Linear Regression,measurement_phase_3fold,1,S8,before,101.0,134.29376762784727
+Linear Regression,measurement_phase_3fold,1,S9,before,110.0,124.45600865092538
+Linear Regression,measurement_phase_3fold,1,S10,before,96.0,105.74458715519047
+Linear Regression,measurement_phase_3fold,2,S1,after,143.0,120.6089637735093
+Linear Regression,measurement_phase_3fold,2,S2,after,138.0,126.43409703632159
+Linear Regression,measurement_phase_3fold,2,S3,after,117.0,113.12684783517577
+Linear Regression,measurement_phase_3fold,2,S4,after,110.0,96.80774003469602
+Linear Regression,measurement_phase_3fold,2,S5,after,132.0,131.67062667853327
+Linear Regression,measurement_phase_3fold,2,S6,after,130.0,130.0059141215676
+Linear Regression,measurement_phase_3fold,2,S7,after,118.0,108.0799282398461
+Linear Regression,measurement_phase_3fold,2,S8,after,122.0,116.70305583997754
+Linear Regression,measurement_phase_3fold,2,S9,after,117.0,107.83442901063096
+Linear Regression,measurement_phase_3fold,2,S10,after,118.0,104.8135518354953
+Polynomial Regression,discovery_fit,0,S1,before,87.0,86.99877824937491
+Polynomial Regression,discovery_fit,0,S1,after,143.0,143.0001993906054
+Polynomial Regression,discovery_fit,0,S1,random,131.0,130.99867730898205
+Polynomial Regression,discovery_fit,0,S2,before,110.0,110.00774177977473
+Polynomial Regression,discovery_fit,0,S2,after,138.0,137.99785056411778
+Polynomial Regression,discovery_fit,0,S2,random,133.0,132.99288362753134
+Polynomial Regression,discovery_fit,0,S3,before,120.0,119.99087071179932
+Polynomial Regression,discovery_fit,0,S3,after,117.0,116.99893826842512
+Polynomial Regression,discovery_fit,0,S3,random,117.0,116.99269964330978
+Polynomial Regression,discovery_fit,0,S4,before,87.0,87.03141812215375
+Polynomial Regression,discovery_fit,0,S4,after,110.0,109.97279730141244
+Polynomial Regression,discovery_fit,0,S4,random,100.0,100.00853300766204
+Polynomial Regression,discovery_fit,0,S5,before,132.0,132.08528360527401
+Polynomial Regression,discovery_fit,0,S5,after,132.0,131.89929619883821
+Polynomial Regression,discovery_fit,0,S5,random,129.0,129.01375966007018
+Polynomial Regression,discovery_fit,0,S6,before,132.0,130.19616255788162
+Polynomial Regression,discovery_fit,0,S6,after,130.0,130.19616255788162
+Polynomial Regression,discovery_fit,0,S6,random,122.0,123.60689458264909
+Polynomial Regression,discovery_fit,0,S7,before,118.0,118.00494518256343
+Polynomial Regression,discovery_fit,0,S7,after,118.0,117.99591528048006
+Polynomial Regression,discovery_fit,0,S7,random,103.0,103.00665004753728
+Polynomial Regression,discovery_fit,0,S8,before,101.0,101.00531308986277
+Polynomial Regression,discovery_fit,0,S8,after,122.0,121.99782232309629
+Polynomial Regression,discovery_fit,0,S8,random,111.0,111.00415243549455
+Polynomial Regression,discovery_fit,0,S9,before,110.0,110.07766050197087
+Polynomial Regression,discovery_fit,0,S9,after,117.0,116.87898457959658
+Polynomial Regression,discovery_fit,0,S9,random,105.0,105.05461761659957
+Polynomial Regression,discovery_fit,0,S10,before,96.0,96.02399935362207
+Polynomial Regression,discovery_fit,0,S10,after,118.0,117.99578315375025
+Polynomial Regression,discovery_fit,0,S10,random,102.0,101.97777688579095
+Polynomial Regression,participant_5fold,0,S4,before,87.0,106.25866420553854
+Polynomial Regression,participant_5fold,0,S4,after,110.0,103.94787555109231
+Polynomial Regression,participant_5fold,0,S4,random,100.0,132.8402427626653
+Polynomial Regression,participant_5fold,0,S9,before,110.0,136.16113192524506
+Polynomial Regression,participant_5fold,0,S9,after,117.0,135.04610670238344
+Polynomial Regression,participant_5fold,0,S9,random,105.0,133.36108375027274
+Polynomial Regression,participant_5fold,1,S3,before,120.0,77.47838288221041
+Polynomial Regression,participant_5fold,1,S3,after,117.0,73.66976893944407
+Polynomial Regression,participant_5fold,1,S3,random,117.0,69.35745998388262
+Polynomial Regression,participant_5fold,1,S8,before,101.0,96.05794860992496
+Polynomial Regression,participant_5fold,1,S8,after,122.0,103.03182011645474
+Polynomial Regression,participant_5fold,1,S8,random,111.0,120.701031159741
+Polynomial Regression,participant_5fold,2,S2,before,110.0,92.80441621948826
+Polynomial Regression,participant_5fold,2,S2,after,138.0,103.38551710065482
+Polynomial Regression,participant_5fold,2,S2,random,133.0,96.82239671995906
+Polynomial Regression,participant_5fold,2,S7,before,118.0,171.29471482935963
+Polynomial Regression,participant_5fold,2,S7,after,118.0,154.81749518931647
+Polynomial Regression,participant_5fold,2,S7,random,103.0,146.72207520604627
+Polynomial Regression,participant_5fold,3,S6,before,132.0,121.18804543717812
+Polynomial Regression,participant_5fold,3,S6,after,130.0,121.18804543717812
+Polynomial Regression,participant_5fold,3,S6,random,122.0,121.18162499310864
+Polynomial Regression,participant_5fold,3,S10,before,96.0,110.82609591664823
+Polynomial Regression,participant_5fold,3,S10,after,118.0,79.81966577070152
+Polynomial Regression,participant_5fold,3,S10,random,102.0,77.95836200013784
+Polynomial Regression,participant_5fold,4,S1,before,87.0,58.959381542353555
+Polynomial Regression,participant_5fold,4,S1,after,143.0,147.81115095699403
+Polynomial Regression,participant_5fold,4,S1,random,131.0,125.6592211007633
+Polynomial Regression,participant_5fold,4,S5,before,132.0,120.61180477508981
+Polynomial Regression,participant_5fold,4,S5,after,132.0,119.99679447701357
+Polynomial Regression,participant_5fold,4,S5,random,129.0,116.60414495309477
+Polynomial Regression,measurement_phase_3fold,0,S1,random,131.0,100.38516924590178
+Polynomial Regression,measurement_phase_3fold,0,S2,random,133.0,119.15776315021014
+Polynomial Regression,measurement_phase_3fold,0,S3,random,117.0,166.5522659277774
+Polynomial Regression,measurement_phase_3fold,0,S4,random,100.0,166.41024430856046
+Polynomial Regression,measurement_phase_3fold,0,S5,random,129.0,133.0490279155844
+Polynomial Regression,measurement_phase_3fold,0,S6,random,122.0,131.18853916518162
+Polynomial Regression,measurement_phase_3fold,0,S7,random,103.0,126.61414806070721
+Polynomial Regression,measurement_phase_3fold,0,S8,random,111.0,170.3148511314839
+Polynomial Regression,measurement_phase_3fold,0,S9,random,105.0,127.54195504844239
+Polynomial Regression,measurement_phase_3fold,0,S10,random,102.0,75.98675025959548
+Polynomial Regression,measurement_phase_3fold,1,S1,before,87.0,95.26782432339728
+Polynomial Regression,measurement_phase_3fold,1,S2,before,110.0,129.44984390429897
+Polynomial Regression,measurement_phase_3fold,1,S3,before,120.0,116.60022971299537
+Polynomial Regression,measurement_phase_3fold,1,S4,before,87.0,103.69142758121225
+Polynomial Regression,measurement_phase_3fold,1,S5,before,132.0,132.53109496796435
+Polynomial Regression,measurement_phase_3fold,1,S6,before,132.0,127.65647227873018
+Polynomial Regression,measurement_phase_3fold,1,S7,before,118.0,137.78586608118508
+Polynomial Regression,measurement_phase_3fold,1,S8,before,101.0,130.26482787832043
+Polynomial Regression,measurement_phase_3fold,1,S9,before,110.0,124.10170009008901
+Polynomial Regression,measurement_phase_3fold,1,S10,before,96.0,106.2572559109196
+Polynomial Regression,measurement_phase_3fold,2,S1,after,143.0,130.73853382033386
+Polynomial Regression,measurement_phase_3fold,2,S2,after,138.0,128.58773680052315
+Polynomial Regression,measurement_phase_3fold,2,S3,after,117.0,112.6437455234275
+Polynomial Regression,measurement_phase_3fold,2,S4,after,110.0,96.9819447818189
+Polynomial Regression,measurement_phase_3fold,2,S5,after,132.0,131.66723117008982
+Polynomial Regression,measurement_phase_3fold,2,S6,after,130.0,130.02305501871862
+Polynomial Regression,measurement_phase_3fold,2,S7,after,118.0,109.76687346856413
+Polynomial Regression,measurement_phase_3fold,2,S8,after,122.0,116.44606538268386
+Polynomial Regression,measurement_phase_3fold,2,S9,after,117.0,107.47203497850361
+Polynomial Regression,measurement_phase_3fold,2,S10,after,118.0,95.49301300699705
+Bayesian Regression,discovery_fit,0,S1,before,87.0,87.0097494150021
+Bayesian Regression,discovery_fit,0,S1,after,143.0,142.99276201577504
+Bayesian Regression,discovery_fit,0,S1,random,131.0,130.996458079303
+Bayesian Regression,discovery_fit,0,S2,before,110.0,110.00768947208192
+Bayesian Regression,discovery_fit,0,S2,after,138.0,137.99518298229626
+Bayesian Regression,discovery_fit,0,S2,random,133.0,132.9920218063135
+Bayesian Regression,discovery_fit,0,S3,before,120.0,119.99150802100317
+Bayesian Regression,discovery_fit,0,S3,after,117.0,117.00081398752341
+Bayesian Regression,discovery_fit,0,S3,random,117.0,116.99774372577579
+Bayesian Regression,discovery_fit,0,S4,before,87.0,87.03190495405374
+Bayesian Regression,discovery_fit,0,S4,after,110.0,109.97230035837963
+Bayesian Regression,discovery_fit,0,S4,random,100.0,100.00770295610077
+Bayesian Regression,discovery_fit,0,S5,before,132.0,132.06868368494628
+Bayesian Regression,discovery_fit,0,S5,after,132.0,131.91344843936963
+Bayesian Regression,discovery_fit,0,S5,random,129.0,129.01505164657596
+Bayesian Regression,discovery_fit,0,S6,before,132.0,130.1838408632526
+Bayesian Regression,discovery_fit,0,S6,after,130.0,130.1838408632526
+Bayesian Regression,discovery_fit,0,S6,random,122.0,123.63007163112218
+Bayesian Regression,discovery_fit,0,S7,before,118.0,118.00029516956742
+Bayesian Regression,discovery_fit,0,S7,after,118.0,117.99474081517555
+Bayesian Regression,discovery_fit,0,S7,random,103.0,103.0103194342172
+Bayesian Regression,discovery_fit,0,S8,before,101.0,101.0077805635787
+Bayesian Regression,discovery_fit,0,S8,after,122.0,122.00041139067142
+Bayesian Regression,discovery_fit,0,S8,random,111.0,111.00704625671243
+Bayesian Regression,discovery_fit,0,S9,before,110.0,110.074731412998
+Bayesian Regression,discovery_fit,0,S9,after,117.0,116.88134063484006
+Bayesian Regression,discovery_fit,0,S9,random,105.0,105.05377035722648
+Bayesian Regression,discovery_fit,0,S10,before,96.0,96.0242279317497
+Bayesian Regression,discovery_fit,0,S10,after,118.0,117.99545748275568
+Bayesian Regression,discovery_fit,0,S10,random,102.0,101.97721303932306
+Bayesian Regression,participant_5fold,0,S4,before,87.0,104.11958902143888
+Bayesian Regression,participant_5fold,0,S4,after,110.0,100.86280778543814
+Bayesian Regression,participant_5fold,0,S4,random,100.0,118.9553518086723
+Bayesian Regression,participant_5fold,0,S9,before,110.0,114.06304713820327
+Bayesian Regression,participant_5fold,0,S9,after,117.0,114.23189073915184
+Bayesian Regression,participant_5fold,0,S9,random,105.0,114.331776734061
+Bayesian Regression,participant_5fold,1,S3,before,120.0,102.92724742675884
+Bayesian Regression,participant_5fold,1,S3,after,117.0,107.46532194602693
+Bayesian Regression,participant_5fold,1,S3,random,117.0,112.9213274401909
+Bayesian Regression,participant_5fold,1,S8,before,101.0,126.20869396817324
+Bayesian Regression,participant_5fold,1,S8,after,122.0,130.49490407245366
+Bayesian Regression,participant_5fold,1,S8,random,111.0,136.30798772883114
+Bayesian Regression,participant_5fold,2,S2,before,110.0,118.09124118231325
+Bayesian Regression,participant_5fold,2,S2,after,138.0,122.42804642908196
+Bayesian Regression,participant_5fold,2,S2,random,133.0,120.18271975619645
+Bayesian Regression,participant_5fold,2,S7,before,118.0,118.90192399816607
+Bayesian Regression,participant_5fold,2,S7,after,118.0,121.62917499401863
+Bayesian Regression,participant_5fold,2,S7,random,103.0,123.0040050039226
+Bayesian Regression,participant_5fold,3,S6,before,132.0,120.34752721953134
+Bayesian Regression,participant_5fold,3,S6,after,130.0,120.34752721953134
+Bayesian Regression,participant_5fold,3,S6,random,122.0,120.40052613452795
+Bayesian Regression,participant_5fold,3,S10,before,96.0,110.88071680567694
+Bayesian Regression,participant_5fold,3,S10,after,118.0,89.7256511727867
+Bayesian Regression,participant_5fold,3,S10,random,102.0,78.95469776374863
+Bayesian Regression,participant_5fold,4,S1,before,87.0,115.00453140354401
+Bayesian Regression,participant_5fold,4,S1,after,143.0,119.03928451804191
+Bayesian Regression,participant_5fold,4,S1,random,131.0,119.19376725376321
+Bayesian Regression,participant_5fold,4,S5,before,132.0,117.30284234536546
+Bayesian Regression,participant_5fold,4,S5,after,132.0,117.13417619472617
+Bayesian Regression,participant_5fold,4,S5,random,129.0,116.22069297245501
+Bayesian Regression,measurement_phase_3fold,0,S1,random,131.0,123.27779097211587
+Bayesian Regression,measurement_phase_3fold,0,S2,random,133.0,119.67317055875606
+Bayesian Regression,measurement_phase_3fold,0,S3,random,117.0,133.47425989998067
+Bayesian Regression,measurement_phase_3fold,0,S4,random,100.0,132.8187181033111
+Bayesian Regression,measurement_phase_3fold,0,S5,random,129.0,132.20825226123634
+Bayesian Regression,measurement_phase_3fold,0,S6,random,122.0,131.13319840609432
+Bayesian Regression,measurement_phase_3fold,0,S7,random,103.0,123.00017834958929
+Bayesian Regression,measurement_phase_3fold,0,S8,random,111.0,137.13644663770253
+Bayesian Regression,measurement_phase_3fold,0,S9,random,105.0,127.08548767762558
+Bayesian Regression,measurement_phase_3fold,0,S10,random,102.0,76.59742007892888
+Bayesian Regression,measurement_phase_3fold,1,S1,before,87.0,124.10439721804788
+Bayesian Regression,measurement_phase_3fold,1,S2,before,110.0,128.52238974551986
+Bayesian Regression,measurement_phase_3fold,1,S3,before,120.0,113.76036474598797
+Bayesian Regression,measurement_phase_3fold,1,S4,before,87.0,103.60832906134439
+Bayesian Regression,measurement_phase_3fold,1,S5,before,132.0,132.4869197890888
+Bayesian Regression,measurement_phase_3fold,1,S6,before,132.0,127.60137289563845
+Bayesian Regression,measurement_phase_3fold,1,S7,before,118.0,125.51674852932533
+Bayesian Regression,measurement_phase_3fold,1,S8,before,101.0,131.2472990701455
+Bayesian Regression,measurement_phase_3fold,1,S9,before,110.0,124.33831689049383
+Bayesian Regression,measurement_phase_3fold,1,S10,before,96.0,105.88110321508663
+Bayesian Regression,measurement_phase_3fold,2,S1,after,143.0,119.55736262886812
+Bayesian Regression,measurement_phase_3fold,2,S2,after,138.0,125.33971639438911
+Bayesian Regression,measurement_phase_3fold,2,S3,after,117.0,112.50452784279011
+Bayesian Regression,measurement_phase_3fold,2,S4,after,110.0,96.81437556121207
+Bayesian Regression,measurement_phase_3fold,2,S5,after,132.0,131.70867098990414
+Bayesian Regression,measurement_phase_3fold,2,S6,after,130.0,130.01109404712702
+Bayesian Regression,measurement_phase_3fold,2,S7,after,118.0,107.69911593980018
+Bayesian Regression,measurement_phase_3fold,2,S8,after,122.0,116.53361488821488
+Bayesian Regression,measurement_phase_3fold,2,S9,after,117.0,107.62452836257755
+Bayesian Regression,measurement_phase_3fold,2,S10,after,118.0,108.53965176210137
+ElasticNet Regression,discovery_fit,0,S1,before,87.0,87.00751030157713
+ElasticNet Regression,discovery_fit,0,S1,after,143.0,142.9938746763434
+ElasticNet Regression,discovery_fit,0,S1,random,131.0,130.9965921975854
+ElasticNet Regression,discovery_fit,0,S2,before,110.0,110.0075544174003
+ElasticNet Regression,discovery_fit,0,S2,after,138.0,137.99600691317383
+ElasticNet Regression,discovery_fit,0,S2,random,133.0,132.9922821552139
+ElasticNet Regression,discovery_fit,0,S3,before,120.0,119.99116428928886
+ElasticNet Regression,discovery_fit,0,S3,after,117.0,117.00105851549706
+ElasticNet Regression,discovery_fit,0,S3,random,117.0,116.99904079821675
+ElasticNet Regression,discovery_fit,0,S4,before,87.0,87.0321971753092
+ElasticNet Regression,discovery_fit,0,S4,after,110.0,109.97245221383491
+ElasticNet Regression,discovery_fit,0,S4,random,100.0,100.0088573916222
+ElasticNet Regression,discovery_fit,0,S5,before,132.0,132.0712997610553
+ElasticNet Regression,discovery_fit,0,S5,after,132.0,131.9099389600359
+ElasticNet Regression,discovery_fit,0,S5,random,129.0,129.01634907848367
+ElasticNet Regression,discovery_fit,0,S6,before,132.0,130.1812706699177
+ElasticNet Regression,discovery_fit,0,S6,after,130.0,130.1812706699177
+ElasticNet Regression,discovery_fit,0,S6,random,122.0,123.63509925809035
+ElasticNet Regression,discovery_fit,0,S7,before,118.0,118.00025008514446
+ElasticNet Regression,discovery_fit,0,S7,after,118.0,117.99484244794061
+ElasticNet Regression,discovery_fit,0,S7,random,103.0,103.01111203916187
+ElasticNet Regression,discovery_fit,0,S8,before,101.0,101.0068441620281
+ElasticNet Regression,discovery_fit,0,S8,after,122.0,122.00033968957604
+ElasticNet Regression,discovery_fit,0,S8,random,111.0,111.00812297986073
+ElasticNet Regression,discovery_fit,0,S9,before,110.0,110.07393774232526
+ElasticNet Regression,discovery_fit,0,S9,after,117.0,116.88266633804129
+ElasticNet Regression,discovery_fit,0,S9,random,105.0,105.05254350475671
+ElasticNet Regression,discovery_fit,0,S10,before,96.0,96.02382502669462
+ElasticNet Regression,discovery_fit,0,S10,after,118.0,117.99406580546132
+ElasticNet Regression,discovery_fit,0,S10,random,102.0,101.97638104674513
+ElasticNet Regression,participant_5fold,0,S4,before,87.0,104.28690429678392
+ElasticNet Regression,participant_5fold,0,S4,after,110.0,100.97216264994168
+ElasticNet Regression,participant_5fold,0,S4,random,100.0,120.66757868258702
+ElasticNet Regression,participant_5fold,0,S9,before,110.0,114.17744474241414
+ElasticNet Regression,participant_5fold,0,S9,after,117.0,114.20542383166205
+ElasticNet Regression,participant_5fold,0,S9,random,105.0,114.08234633384063
+ElasticNet Regression,participant_5fold,1,S3,before,120.0,101.98051173089566
+ElasticNet Regression,participant_5fold,1,S3,after,117.0,107.7268948098428
+ElasticNet Regression,participant_5fold,1,S3,random,117.0,116.01248093078351
+ElasticNet Regression,participant_5fold,1,S8,before,101.0,124.72449451466042
+ElasticNet Regression,participant_5fold,1,S8,after,122.0,130.8235269022728
+ElasticNet Regression,participant_5fold,1,S8,random,111.0,139.09509635299386
+ElasticNet Regression,participant_5fold,2,S2,before,110.0,116.50574576717449
+ElasticNet Regression,participant_5fold,2,S2,after,138.0,122.40845903213052
+ElasticNet Regression,participant_5fold,2,S2,random,133.0,119.316743087532
+ElasticNet Regression,participant_5fold,2,S7,before,118.0,122.68702968395257
+ElasticNet Regression,participant_5fold,2,S7,after,118.0,126.3714983166136
+ElasticNet Regression,participant_5fold,2,S7,random,103.0,128.2613233065446
+ElasticNet Regression,participant_5fold,3,S6,before,132.0,119.01863769137948
+ElasticNet Regression,participant_5fold,3,S6,after,130.0,119.01863769137948
+ElasticNet Regression,participant_5fold,3,S6,random,122.0,119.10512403660113
+ElasticNet Regression,participant_5fold,3,S10,before,96.0,110.48698427659215
+ElasticNet Regression,participant_5fold,3,S10,after,118.0,84.96987518907966
+ElasticNet Regression,participant_5fold,3,S10,random,102.0,77.90568808745454
+ElasticNet Regression,participant_5fold,4,S1,before,87.0,114.16526414388377
+ElasticNet Regression,participant_5fold,4,S1,after,143.0,121.90277670974284
+ElasticNet Regression,participant_5fold,4,S1,random,131.0,120.92001526165579
+ElasticNet Regression,participant_5fold,4,S5,before,132.0,118.0582084917676
+ElasticNet Regression,participant_5fold,4,S5,after,132.0,117.91468922773645
+ElasticNet Regression,participant_5fold,4,S5,random,129.0,117.14233935797465
+ElasticNet Regression,measurement_phase_3fold,0,S1,random,131.0,123.11447337344585
+ElasticNet Regression,measurement_phase_3fold,0,S2,random,133.0,119.72217066930001
+ElasticNet Regression,measurement_phase_3fold,0,S3,random,117.0,136.7928294529818
+ElasticNet Regression,measurement_phase_3fold,0,S4,random,100.0,135.8974076341693
+ElasticNet Regression,measurement_phase_3fold,0,S5,random,129.0,132.29271816219907
+ElasticNet Regression,measurement_phase_3fold,0,S6,random,122.0,131.14562775248882
+ElasticNet Regression,measurement_phase_3fold,0,S7,random,103.0,123.60824811010815
+ElasticNet Regression,measurement_phase_3fold,0,S8,random,111.0,138.69497441958967
+ElasticNet Regression,measurement_phase_3fold,0,S9,random,105.0,127.08112598813767
+ElasticNet Regression,measurement_phase_3fold,0,S10,random,102.0,76.54666958129604
+ElasticNet Regression,measurement_phase_3fold,1,S1,before,87.0,129.9978778667808
+ElasticNet Regression,measurement_phase_3fold,1,S2,before,110.0,129.73518658276893
+ElasticNet Regression,measurement_phase_3fold,1,S3,before,120.0,112.65457004711104
+ElasticNet Regression,measurement_phase_3fold,1,S4,before,87.0,103.3953089747828
+ElasticNet Regression,measurement_phase_3fold,1,S5,before,132.0,132.46866733312856
+ElasticNet Regression,measurement_phase_3fold,1,S6,before,132.0,127.60404058342954
+ElasticNet Regression,measurement_phase_3fold,1,S7,before,118.0,123.23786395441644
+ElasticNet Regression,measurement_phase_3fold,1,S8,before,101.0,134.05703636019322
+ElasticNet Regression,measurement_phase_3fold,1,S9,before,110.0,124.43373101574103
+ElasticNet Regression,measurement_phase_3fold,1,S10,before,96.0,105.75420796524315
+ElasticNet Regression,measurement_phase_3fold,2,S1,after,143.0,120.80837382767015
+ElasticNet Regression,measurement_phase_3fold,2,S2,after,138.0,126.49960870621105
+ElasticNet Regression,measurement_phase_3fold,2,S3,after,117.0,113.0454292950851
+ElasticNet Regression,measurement_phase_3fold,2,S4,after,110.0,96.80976857753492
+ElasticNet Regression,measurement_phase_3fold,2,S5,after,132.0,131.67450265865017
+ElasticNet Regression,measurement_phase_3fold,2,S6,after,130.0,130.00613201292364
+ElasticNet Regression,measurement_phase_3fold,2,S7,after,118.0,108.02859483441723
+ElasticNet Regression,measurement_phase_3fold,2,S8,after,122.0,116.77765000002066
+ElasticNet Regression,measurement_phase_3fold,2,S9,after,117.0,107.81929594974397
+ElasticNet Regression,measurement_phase_3fold,2,S10,after,118.0,104.98701038441513
+Random Forest Regression,discovery_fit,0,S1,before,87.0,87.00290895917887
+Random Forest Regression,discovery_fit,0,S1,after,143.0,142.9981115584224
+Random Forest Regression,discovery_fit,0,S1,random,131.0,131.00000595969652
+Random Forest Regression,discovery_fit,0,S2,before,110.0,109.99915555146103
+Random Forest Regression,discovery_fit,0,S2,after,138.0,137.99881679979592
+Random Forest Regression,discovery_fit,0,S2,random,133.0,133.000398445014
+Random Forest Regression,discovery_fit,0,S3,before,120.0,119.99745212969312
+Random Forest Regression,discovery_fit,0,S3,after,117.0,117.00227008722644
+Random Forest Regression,discovery_fit,0,S3,random,117.0,116.99914316880212
+Random Forest Regression,discovery_fit,0,S4,before,87.0,87.01642712112144
+Random Forest Regression,discovery_fit,0,S4,after,110.0,109.97866770901533
+Random Forest Regression,discovery_fit,0,S4,random,100.0,100.00251710128057
+Random Forest Regression,discovery_fit,0,S5,before,132.0,132.0056492647862
+Random Forest Regression,discovery_fit,0,S5,after,132.0,131.99516698812653
+Random Forest Regression,discovery_fit,0,S5,random,129.0,128.9990790822143
+Random Forest Regression,discovery_fit,0,S6,before,132.0,130.6465042574805
+Random Forest Regression,discovery_fit,0,S6,after,130.0,130.6465042574805
+Random Forest Regression,discovery_fit,0,S6,random,122.0,122.70748874671935
+Random Forest Regression,discovery_fit,0,S7,before,118.0,117.9988934436128
+Random Forest Regression,discovery_fit,0,S7,after,118.0,117.99477129582638
+Random Forest Regression,discovery_fit,0,S7,random,103.0,103.00690391066628
+Random Forest Regression,discovery_fit,0,S8,before,101.0,101.00069038806886
+Random Forest Regression,discovery_fit,0,S8,after,122.0,122.0001819947485
+Random Forest Regression,discovery_fit,0,S8,random,111.0,111.00412655120051
+Random Forest Regression,discovery_fit,0,S9,before,110.0,110.05268430827876
+Random Forest Regression,discovery_fit,0,S9,after,117.0,116.91850920227594
+Random Forest Regression,discovery_fit,0,S9,random,105.0,105.03666080198381
+Random Forest Regression,discovery_fit,0,S10,before,96.0,96.01719012279466
+Random Forest Regression,discovery_fit,0,S10,after,118.0,117.9983169079994
+Random Forest Regression,discovery_fit,0,S10,random,102.0,101.98644044514114
+Random Forest Regression,participant_5fold,0,S4,before,87.0,103.21750536820466
+Random Forest Regression,participant_5fold,0,S4,after,110.0,98.32555585704598
+Random Forest Regression,participant_5fold,0,S4,random,100.0,113.3979723692648
+Random Forest Regression,participant_5fold,0,S9,before,110.0,112.28146611402386
+Random Forest Regression,participant_5fold,0,S9,after,117.0,112.77944942472867
+Random Forest Regression,participant_5fold,0,S9,random,105.0,112.68935532236297
+Random Forest Regression,participant_5fold,1,S3,before,120.0,103.14286712977572
+Random Forest Regression,participant_5fold,1,S3,after,117.0,107.43946693064031
+Random Forest Regression,participant_5fold,1,S3,random,117.0,106.50247717933283
+Random Forest Regression,participant_5fold,1,S8,before,101.0,106.70576984192604
+Random Forest Regression,participant_5fold,1,S8,after,122.0,133.89320318980828
+Random Forest Regression,participant_5fold,1,S8,random,111.0,136.52604166741787
+Random Forest Regression,participant_5fold,2,S2,before,110.0,105.8173340922895
+Random Forest Regression,participant_5fold,2,S2,after,138.0,130.98353713920574
+Random Forest Regression,participant_5fold,2,S2,random,133.0,131.04578549061858
+Random Forest Regression,participant_5fold,2,S7,before,118.0,103.37315349063306
+Random Forest Regression,participant_5fold,2,S7,after,118.0,112.25830741631803
+Random Forest Regression,participant_5fold,2,S7,random,103.0,130.48384394503512
+Random Forest Regression,participant_5fold,3,S6,before,132.0,129.0118214392359
+Random Forest Regression,participant_5fold,3,S6,after,130.0,129.0118214392359
+Random Forest Regression,participant_5fold,3,S6,random,122.0,129.12722867211502
+Random Forest Regression,participant_5fold,3,S10,before,96.0,111.46994731341384
+Random Forest Regression,participant_5fold,3,S10,after,118.0,89.0325846747438
+Random Forest Regression,participant_5fold,3,S10,random,102.0,82.8342932852961
+Random Forest Regression,participant_5fold,4,S1,before,87.0,107.90364583326506
+Random Forest Regression,participant_5fold,4,S1,after,143.0,125.4690620194302
+Random Forest Regression,participant_5fold,4,S1,random,131.0,126.46394452766015
+Random Forest Regression,participant_5fold,4,S5,before,132.0,129.9939206475892
+Random Forest Regression,participant_5fold,4,S5,after,132.0,129.66203716078635
+Random Forest Regression,participant_5fold,4,S5,random,129.0,122.14341550564615
+Random Forest Regression,measurement_phase_3fold,0,S1,random,131.0,133.47611803596965
+Random Forest Regression,measurement_phase_3fold,0,S2,random,133.0,135.2006127774821
+Random Forest Regression,measurement_phase_3fold,0,S3,random,117.0,115.9578221156075
+Random Forest Regression,measurement_phase_3fold,0,S4,random,100.0,113.48838657548464
+Random Forest Regression,measurement_phase_3fold,0,S5,random,129.0,131.78714046684667
+Random Forest Regression,measurement_phase_3fold,0,S6,random,122.0,130.99686842975865
+Random Forest Regression,measurement_phase_3fold,0,S7,random,103.0,130.70083993734517
+Random Forest Regression,measurement_phase_3fold,0,S8,random,111.0,130.3460313014248
+Random Forest Regression,measurement_phase_3fold,0,S9,random,105.0,121.12757618719039
+Random Forest Regression,measurement_phase_3fold,0,S10,random,102.0,83.81576740498312
+Random Forest Regression,measurement_phase_3fold,1,S1,before,87.0,128.75000199429198
+Random Forest Regression,measurement_phase_3fold,1,S2,before,110.0,129.19912906413018
+Random Forest Regression,measurement_phase_3fold,1,S3,before,120.0,117.02967927729333
+Random Forest Regression,measurement_phase_3fold,1,S4,before,87.0,105.84211664543714
+Random Forest Regression,measurement_phase_3fold,1,S5,before,132.0,132.19958723360543
+Random Forest Regression,measurement_phase_3fold,1,S6,before,132.0,128.64627348220483
+Random Forest Regression,measurement_phase_3fold,1,S7,before,118.0,118.45873632332712
+Random Forest Regression,measurement_phase_3fold,1,S8,before,101.0,124.04096771523312
+Random Forest Regression,measurement_phase_3fold,1,S9,before,110.0,121.44106974296815
+Random Forest Regression,measurement_phase_3fold,1,S10,before,96.0,107.50028042722799
+Random Forest Regression,measurement_phase_3fold,2,S1,after,143.0,124.13156870365563
+Random Forest Regression,measurement_phase_3fold,2,S2,after,138.0,129.19846932969227
+Random Forest Regression,measurement_phase_3fold,2,S3,after,117.0,116.46976532451215
+Random Forest Regression,measurement_phase_3fold,2,S4,after,110.0,95.68565761093056
+Random Forest Regression,measurement_phase_3fold,2,S5,after,132.0,132.1946562357075
+Random Forest Regression,measurement_phase_3fold,2,S6,after,130.0,130.80732898599263
+Random Forest Regression,measurement_phase_3fold,2,S7,after,118.0,103.60943553671106
+Random Forest Regression,measurement_phase_3fold,2,S8,after,122.0,115.572040958968
+Random Forest Regression,measurement_phase_3fold,2,S9,after,117.0,105.1797134128521
+Random Forest Regression,measurement_phase_3fold,2,S10,after,118.0,102.97135613339945
+Artificial Neural Network,discovery_fit,0,S1,before,87.0,86.97616756659842
+Artificial Neural Network,discovery_fit,0,S1,after,143.0,142.95562694265175
+Artificial Neural Network,discovery_fit,0,S1,random,131.0,130.96056414521314
+Artificial Neural Network,discovery_fit,0,S2,before,110.0,109.98031000992111
+Artificial Neural Network,discovery_fit,0,S2,after,138.0,137.96374423292394
+Artificial Neural Network,discovery_fit,0,S2,random,133.0,132.97747647185986
+Artificial Neural Network,discovery_fit,0,S3,before,120.0,119.9956595304669
+Artificial Neural Network,discovery_fit,0,S3,after,117.0,117.00266385756964
+Artificial Neural Network,discovery_fit,0,S3,random,117.0,116.99577979338522
+Artificial Neural Network,discovery_fit,0,S4,before,87.0,87.03248987940314
+Artificial Neural Network,discovery_fit,0,S4,after,110.0,109.97286539387751
+Artificial Neural Network,discovery_fit,0,S4,random,100.0,99.99885510322852
+Artificial Neural Network,discovery_fit,0,S5,before,132.0,131.69661838663788
+Artificial Neural Network,discovery_fit,0,S5,after,132.0,132.32670722697662
+Artificial Neural Network,discovery_fit,0,S5,random,129.0,128.93192081461626
+Artificial Neural Network,discovery_fit,0,S6,before,132.0,130.17228439939979
+Artificial Neural Network,discovery_fit,0,S6,after,130.0,130.17228439939979
+Artificial Neural Network,discovery_fit,0,S6,random,122.0,123.61700376179863
+Artificial Neural Network,discovery_fit,0,S7,before,118.0,117.97502743091071
+Artificial Neural Network,discovery_fit,0,S7,after,118.0,117.98225406071566
+Artificial Neural Network,discovery_fit,0,S7,random,103.0,102.98910490211082
+Artificial Neural Network,discovery_fit,0,S8,before,101.0,100.96842007162715
+Artificial Neural Network,discovery_fit,0,S8,after,122.0,121.96151880130171
+Artificial Neural Network,discovery_fit,0,S8,random,111.0,110.96847006295664
+Artificial Neural Network,discovery_fit,0,S9,before,110.0,110.08539662472323
+Artificial Neural Network,discovery_fit,0,S9,after,117.0,116.86600724722693
+Artificial Neural Network,discovery_fit,0,S9,random,105.0,105.06590232820228
+Artificial Neural Network,discovery_fit,0,S10,before,96.0,96.02064977661534
+Artificial Neural Network,discovery_fit,0,S10,after,118.0,117.99829291553418
+Artificial Neural Network,discovery_fit,0,S10,random,102.0,101.97617093888366
+Artificial Neural Network,participant_5fold,0,S4,before,87.0,104.77226904266543
+Artificial Neural Network,participant_5fold,0,S4,after,110.0,101.00573963584404
+Artificial Neural Network,participant_5fold,0,S4,random,100.0,115.39489005821083
+Artificial Neural Network,participant_5fold,0,S9,before,110.0,115.79884156902357
+Artificial Neural Network,participant_5fold,0,S9,after,117.0,116.56588955345117
+Artificial Neural Network,participant_5fold,0,S9,random,105.0,117.71208294141496
+Artificial Neural Network,participant_5fold,1,S3,before,120.0,111.68929001771988
+Artificial Neural Network,participant_5fold,1,S3,after,117.0,107.0789622277746
+Artificial Neural Network,participant_5fold,1,S3,random,117.0,91.16815776403749
+Artificial Neural Network,participant_5fold,1,S8,before,101.0,168.08795926556292
+Artificial Neural Network,participant_5fold,1,S8,after,122.0,193.6785991241455
+Artificial Neural Network,participant_5fold,1,S8,random,111.0,228.38399973957223
+Artificial Neural Network,participant_5fold,2,S2,before,110.0,66.05096439195535
+Artificial Neural Network,participant_5fold,2,S2,after,138.0,85.01227262784496
+Artificial Neural Network,participant_5fold,2,S2,random,133.0,75.01706809113394
+Artificial Neural Network,participant_5fold,2,S7,before,118.0,51.07787279995328
+Artificial Neural Network,participant_5fold,2,S7,after,118.0,55.38189551484596
+Artificial Neural Network,participant_5fold,2,S7,random,103.0,59.742995106649
+Artificial Neural Network,participant_5fold,3,S6,before,132.0,92.26851841863322
+Artificial Neural Network,participant_5fold,3,S6,after,130.0,92.26851841863322
+Artificial Neural Network,participant_5fold,3,S6,random,122.0,92.48009294675624
+Artificial Neural Network,participant_5fold,3,S10,before,96.0,94.19438243593272
+Artificial Neural Network,participant_5fold,3,S10,after,118.0,43.330484651762625
+Artificial Neural Network,participant_5fold,3,S10,random,102.0,60.60872967890632
+Artificial Neural Network,participant_5fold,4,S1,before,87.0,46.26710779131406
+Artificial Neural Network,participant_5fold,4,S1,after,143.0,108.61448041650449
+Artificial Neural Network,participant_5fold,4,S1,random,131.0,93.2128070616549
+Artificial Neural Network,participant_5fold,4,S5,before,132.0,72.36129310313444
+Artificial Neural Network,participant_5fold,4,S5,after,132.0,72.62774104192975
+Artificial Neural Network,participant_5fold,4,S5,random,129.0,74.007957405144
+Artificial Neural Network,measurement_phase_3fold,0,S1,random,131.0,94.99883603256325
+Artificial Neural Network,measurement_phase_3fold,0,S2,random,133.0,123.93615792665221
+Artificial Neural Network,measurement_phase_3fold,0,S3,random,117.0,90.58586238987225
+Artificial Neural Network,measurement_phase_3fold,0,S4,random,100.0,79.06121731865628
+Artificial Neural Network,measurement_phase_3fold,0,S5,random,129.0,129.53062309619546
+Artificial Neural Network,measurement_phase_3fold,0,S6,random,122.0,131.17533578474732
+Artificial Neural Network,measurement_phase_3fold,0,S7,random,103.0,102.47189616472116
+Artificial Neural Network,measurement_phase_3fold,0,S8,random,111.0,107.31257306536854
+Artificial Neural Network,measurement_phase_3fold,0,S9,random,105.0,128.66971481262385
+Artificial Neural Network,measurement_phase_3fold,0,S10,random,102.0,76.65017401362479
+Artificial Neural Network,measurement_phase_3fold,1,S1,before,87.0,77.64226559712117
+Artificial Neural Network,measurement_phase_3fold,1,S2,before,110.0,109.2809737476513
+Artificial Neural Network,measurement_phase_3fold,1,S3,before,120.0,121.22619474055075
+Artificial Neural Network,measurement_phase_3fold,1,S4,before,87.0,105.48856703980883
+Artificial Neural Network,measurement_phase_3fold,1,S5,before,132.0,132.2762642725621
+Artificial Neural Network,measurement_phase_3fold,1,S6,before,132.0,127.53897161274092
+Artificial Neural Network,measurement_phase_3fold,1,S7,before,118.0,89.33469146244292
+Artificial Neural Network,measurement_phase_3fold,1,S8,before,101.0,141.72832400883792
+Artificial Neural Network,measurement_phase_3fold,1,S9,before,110.0,125.39133171320621
+Artificial Neural Network,measurement_phase_3fold,1,S10,before,96.0,102.97060546152261
+Artificial Neural Network,measurement_phase_3fold,2,S1,after,143.0,129.85622461039608
+Artificial Neural Network,measurement_phase_3fold,2,S2,after,138.0,110.55049178739381
+Artificial Neural Network,measurement_phase_3fold,2,S3,after,117.0,107.13963805483269
+Artificial Neural Network,measurement_phase_3fold,2,S4,after,110.0,97.54386934173831
+Artificial Neural Network,measurement_phase_3fold,2,S5,after,132.0,132.10044590300836
+Artificial Neural Network,measurement_phase_3fold,2,S6,after,130.0,129.9697161406126
+Artificial Neural Network,measurement_phase_3fold,2,S7,after,118.0,100.50462228724344
+Artificial Neural Network,measurement_phase_3fold,2,S8,after,122.0,145.8007041496876
+Artificial Neural Network,measurement_phase_3fold,2,S9,after,117.0,106.92828871698612
+Artificial Neural Network,measurement_phase_3fold,2,S10,after,118.0,114.9662090166759
+PSO-ANN,discovery_fit,0,S1,before,87.0,87.00072014572672
+PSO-ANN,discovery_fit,0,S1,after,143.0,142.99418033325222
+PSO-ANN,discovery_fit,0,S1,random,131.0,130.99633915149323
+PSO-ANN,discovery_fit,0,S2,before,110.0,110.00540962339593
+PSO-ANN,discovery_fit,0,S2,after,138.0,137.99702010634275
+PSO-ANN,discovery_fit,0,S2,random,133.0,132.99444805875348
+PSO-ANN,discovery_fit,0,S3,before,120.0,119.9905413239628
+PSO-ANN,discovery_fit,0,S3,after,117.0,116.99952117734632
+PSO-ANN,discovery_fit,0,S3,random,117.0,116.99699249540126
+PSO-ANN,discovery_fit,0,S4,before,87.0,87.03268408630936
+PSO-ANN,discovery_fit,0,S4,after,110.0,109.9726452923381
+PSO-ANN,discovery_fit,0,S4,random,100.0,100.00655637628836
+PSO-ANN,discovery_fit,0,S5,before,132.0,132.09238332853988
+PSO-ANN,discovery_fit,0,S5,after,132.0,131.88751966581646
+PSO-ANN,discovery_fit,0,S5,random,129.0,129.02045358283618
+PSO-ANN,discovery_fit,0,S6,before,132.0,130.17809929737075
+PSO-ANN,discovery_fit,0,S6,after,130.0,130.17809929737075
+PSO-ANN,discovery_fit,0,S6,random,122.0,123.64335800492677
+PSO-ANN,discovery_fit,0,S7,before,118.0,117.99771662144421
+PSO-ANN,discovery_fit,0,S7,after,118.0,117.9946452167986
+PSO-ANN,discovery_fit,0,S7,random,103.0,103.00921407574303
+PSO-ANN,discovery_fit,0,S8,before,101.0,101.00011325969783
+PSO-ANN,discovery_fit,0,S8,after,122.0,122.00107878978207
+PSO-ANN,discovery_fit,0,S8,random,111.0,111.00731973670287
+PSO-ANN,discovery_fit,0,S9,before,110.0,110.07213351402385
+PSO-ANN,discovery_fit,0,S9,after,117.0,116.88385573431164
+PSO-ANN,discovery_fit,0,S9,random,105.0,105.0523919741563
+PSO-ANN,discovery_fit,0,S10,before,96.0,96.02211701484511
+PSO-ANN,discovery_fit,0,S10,after,118.0,117.99528633569449
+PSO-ANN,discovery_fit,0,S10,random,102.0,101.97577539928827
+PSO-ANN,participant_5fold,0,S4,before,87.0,104.09700247865763
+PSO-ANN,participant_5fold,0,S4,after,110.0,100.8236564903052
+PSO-ANN,participant_5fold,0,S4,random,100.0,116.55614028682383
+PSO-ANN,participant_5fold,0,S9,before,110.0,114.47013611926349
+PSO-ANN,participant_5fold,0,S9,after,117.0,114.90451989739901
+PSO-ANN,participant_5fold,0,S9,random,105.0,115.4158023989401
+PSO-ANN,participant_5fold,1,S3,before,120.0,100.63303144422599
+PSO-ANN,participant_5fold,1,S3,after,117.0,102.23284668404598
+PSO-ANN,participant_5fold,1,S3,random,117.0,103.41418451218283
+PSO-ANN,participant_5fold,1,S8,before,101.0,127.60884246629578
+PSO-ANN,participant_5fold,1,S8,after,122.0,131.40795985010467
+PSO-ANN,participant_5fold,1,S8,random,111.0,132.2589974539616
+PSO-ANN,participant_5fold,2,S2,before,110.0,121.75176044045723
+PSO-ANN,participant_5fold,2,S2,after,138.0,122.5036395403903
+PSO-ANN,participant_5fold,2,S2,random,133.0,122.62787161386073
+PSO-ANN,participant_5fold,2,S7,before,118.0,125.9463733159128
+PSO-ANN,participant_5fold,2,S7,after,118.0,127.21428560865193
+PSO-ANN,participant_5fold,2,S7,random,103.0,127.16952920565808
+PSO-ANN,participant_5fold,3,S6,before,132.0,128.64658307835106
+PSO-ANN,participant_5fold,3,S6,after,130.0,128.64658307835106
+PSO-ANN,participant_5fold,3,S6,random,122.0,128.71307716488212
+PSO-ANN,participant_5fold,3,S10,before,96.0,111.22952461741716
+PSO-ANN,participant_5fold,3,S10,after,118.0,95.89177016717343
+PSO-ANN,participant_5fold,3,S10,random,102.0,80.20096043218508
+PSO-ANN,participant_5fold,4,S1,before,87.0,120.87636186258017
+PSO-ANN,participant_5fold,4,S1,after,143.0,120.45485458818177
+PSO-ANN,participant_5fold,4,S1,random,131.0,121.79500018914199
+PSO-ANN,participant_5fold,4,S5,before,132.0,125.88607116734025
+PSO-ANN,participant_5fold,4,S5,after,132.0,125.62799454757528
+PSO-ANN,participant_5fold,4,S5,random,129.0,124.21157894234989
+PSO-ANN,measurement_phase_3fold,0,S1,random,131.0,106.04037464279726
+PSO-ANN,measurement_phase_3fold,0,S2,random,133.0,127.19500881657589
+PSO-ANN,measurement_phase_3fold,0,S3,random,117.0,120.67996601242966
+PSO-ANN,measurement_phase_3fold,0,S4,random,100.0,121.88517287503895
+PSO-ANN,measurement_phase_3fold,0,S5,random,129.0,132.1181430680448
+PSO-ANN,measurement_phase_3fold,0,S6,random,122.0,131.28370954351172
+PSO-ANN,measurement_phase_3fold,0,S7,random,103.0,119.51655477184677
+PSO-ANN,measurement_phase_3fold,0,S8,random,111.0,147.47988243160887
+PSO-ANN,measurement_phase_3fold,0,S9,random,105.0,126.99538433226418
+PSO-ANN,measurement_phase_3fold,0,S10,random,102.0,76.45947166732091
+PSO-ANN,measurement_phase_3fold,1,S1,before,87.0,135.5239521391381
+PSO-ANN,measurement_phase_3fold,1,S2,before,110.0,133.46871298816947
+PSO-ANN,measurement_phase_3fold,1,S3,before,120.0,113.7524148492141
+PSO-ANN,measurement_phase_3fold,1,S4,before,87.0,103.99484530731633
+PSO-ANN,measurement_phase_3fold,1,S5,before,132.0,132.51999212112742
+PSO-ANN,measurement_phase_3fold,1,S6,before,132.0,127.60433510143547
+PSO-ANN,measurement_phase_3fold,1,S7,before,118.0,125.79300594176549
+PSO-ANN,measurement_phase_3fold,1,S8,before,101.0,129.9356833832759
+PSO-ANN,measurement_phase_3fold,1,S9,before,110.0,124.40235677045683
+PSO-ANN,measurement_phase_3fold,1,S10,before,96.0,105.21106321348799
+PSO-ANN,measurement_phase_3fold,2,S1,after,143.0,127.39708872802053
+PSO-ANN,measurement_phase_3fold,2,S2,after,138.0,131.27349056434826
+PSO-ANN,measurement_phase_3fold,2,S3,after,117.0,116.08716490488887
+PSO-ANN,measurement_phase_3fold,2,S4,after,110.0,97.69819113133886
+PSO-ANN,measurement_phase_3fold,2,S5,after,132.0,131.60406027885097
+PSO-ANN,measurement_phase_3fold,2,S6,after,130.0,130.00238121440438
+PSO-ANN,measurement_phase_3fold,2,S7,after,118.0,107.87477756107559
+PSO-ANN,measurement_phase_3fold,2,S8,after,122.0,123.55231549017756
+PSO-ANN,measurement_phase_3fold,2,S9,after,117.0,107.37994819131278
+PSO-ANN,measurement_phase_3fold,2,S10,after,118.0,106.48950170409407

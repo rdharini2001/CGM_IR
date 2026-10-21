@@ -1,9 +1,0 @@
-architecture,seed,exact_neural_weight_replay,exact_feature_and_label_scalers,neural_rmse_mgdl,max_abs_saved_weight_difference
-3-3-3-1,2026,True,True,9.981914367267942,0.0
-3-4-3-1,2027,True,True,9.51301532647178,0.0
-3-4-4-1,2028,True,True,9.399960322588651,0.0
-3-5-4-1,2029,True,True,10.62130408366397,0.0
-3-5-5-1,2030,True,True,10.443162067866373,0.0
-3-4-5-1,2031,True,True,9.678832078564824,0.0
-3-2-2-1,2032,True,True,9.475107048598794,0.0
-3-3-2-1,2033,True,True,10.684608926022271,0.0
