@@ -1,4 +1,4 @@
-# OPTIC — Near-Infrared Glucose Monitoring and PSO–ANN Calibration
+# OPTIC: Near-Infrared Glucose Monitoring and PSO–ANN Calibration
 
 **The computational research companion to** *Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm* (TechRxiv, 2023). We present the optical-sensor measurements, a particle-swarm-trained neural calibration framework, eight architectural variants, seven regression families, and an interactive research website as one cohesive scientific resource.
 
