@@ -2,7 +2,10 @@
 
 **The computational research companion to** *Non-Invasive Continuous Glucose Monitoring using Near Infrared Sensors and PSO-ANN Algorithm* (TechRxiv, 2023). We present the optical-sensor measurements, a particle-swarm-trained neural calibration framework, eight architectural variants, seven regression families, and an interactive research website as one cohesive scientific resource.
 
-**[Research article](https://doi.org/10.36227/techrxiv.24465955.v1)** · **[Research website](docs/index.html)** · **[Supplementary Methods (PDF)](docs/SUPPLEMENTARY_METHODS.pdf)** · **[References and methodological rationale](references/REFERENCES.md)**
+![Textile patch antenna, resonant field and frequency-response geometry](docs/assets/optic-illustration.png)
+
+
+**[Research article](https://doi.org/10.36227/techrxiv.24465955.v1)** · **[Research website](https://rdharini2001.github.io/CGM_IR/)** · **[Supplementary Methods (PDF)](docs/SUPPLEMENTARY_METHODS.pdf)** · **[References and methodological rationale](references/REFERENCES.md)**
 
 Authors of the associated research article: **Suma K. V., Dharini Raghavan, Maya V. Karki, Narayana Sharma, and Gundu H. R. Rao.**
 
